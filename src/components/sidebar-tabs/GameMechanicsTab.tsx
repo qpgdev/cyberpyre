@@ -2,27 +2,37 @@ import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 function GameMechanicsTab() {
-    const [buttonStyling, setButtonStyling ] = useState('intro-button-alt');
-    const navigate = useNavigate();
-    const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+  const [buttonStyling, setButtonStyling ] = useState('intro-button-alt');
+  const navigate = useNavigate();
+  const location = useLocation();
 
-    useEffect(() => {
-        if (location.pathname === '/game-mechanics') {
-            setButtonStyling('intro-button-selected')
-        } else {
-            setButtonStyling('intro-button-alt')
-        }
-    }, [location.pathname]);
+  const navigateToCyberwareDensity = () => {
+    navigate('/game-mechanics/cyberware-density');
+};
 
-    const navigateToGameMechanics = () => {
-        navigate('/game-mechanics');
-    };
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
-    return (
-        <button className ={buttonStyling} onClick={navigateToGameMechanics}>
-            game mechanics
-        </button>
-    )
-  }
-  
-  export default GameMechanicsTab;
+  useEffect(() => {
+    if (location.pathname.startsWith('/game-mechanics')) {
+        setButtonStyling('intro-button-selected')
+    } else {
+        setButtonStyling('intro-button-alt')
+    }
+}, [location.pathname]);
+
+  return (
+    <div className="tab">
+      <button className ={buttonStyling} onClick={toggleDropdown}>game mechanics</button>
+      {isOpen && (
+        <div className="dropdown-content">
+          <a onClick={navigateToCyberwareDensity}>cyberware density</a>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default GameMechanicsTab;
