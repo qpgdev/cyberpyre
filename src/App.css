@@ -33,6 +33,7 @@
   background-color: #242424; /* Sidebar background color */
   color: #fff; /* Text color in the sidebar */
   padding: 20px; /* Add padding for spacing */
+  height: 100vw;
 }
 
 .sidebar ul {
