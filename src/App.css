@@ -18,8 +18,13 @@
 }
 
 .container {
-  display: flex;
-  height: 100vh; /* Make the container take up the full viewport height */
+  display: flex; /* Make the container take up the full viewport height */
+  overflow: auto;
+  max-height: 100vw;
+}
+
+.setting-the-scene-img {
+  align-self: baseline;
 }
 
 /* Style the sidebar */
@@ -47,7 +52,7 @@
 /* Style the dashboard content area */
 .dashboard {
   flex: 1; /* Allow the dashboard to flex and take up remaining space */
-  padding: 20px; /* Add padding for spacing */
+  /* padding: 20px; Add padding for spacing */
 }
 
 .navbar {
@@ -93,6 +98,7 @@ a:hover {
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
+  margin: 20px;
 }
 
 .intro-button-alt {
@@ -146,4 +152,9 @@ color: rgb(255, 0, 0);
 
 .tab:hover .dropdown-content {
 display: block;
+}
+
+.scrollable-div {
+  overflow: auto;
+  height: 50vw;
 }

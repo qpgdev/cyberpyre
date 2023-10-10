@@ -21,6 +21,8 @@ import CyberwareDensityPage from './components/game-mechanics-pages/CyberwareDen
 // Import cyberware-and-augmentations pages
 import WhatAreAugmentations from './components/cyberware-and-augmentations/WhatAreAugmentationsPage';
 
+// I WANT SETTING THE SCENE TO HAVE A SCROLLABLE DIV
+
 function App() {
   return (
     <Router>
