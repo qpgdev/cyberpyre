@@ -9,11 +9,11 @@ function PlayingCyberpyreTab() {
 
   const navigateToWhatIsCyberpyre = () => {
     navigate('/playing-cyberpyre/what-is-cyberpyre');
-};
+  };
 
   const navigateToSettingTheScene = () => {
     navigate('/playing-cyberpyre/setting-the-scene');
-};
+  };
 
   const navigateToKindredInTheFuture = () => {
   navigate('/playing-cyberpyre/kindred-in-the-future');
@@ -29,7 +29,7 @@ function PlayingCyberpyreTab() {
     } else {
         setButtonStyling('intro-button-alt')
     }
-}, [location.pathname]);
+  }, [location.pathname]);
 
   return (
     <div className="tab">
