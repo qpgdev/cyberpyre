@@ -20,7 +20,6 @@
 .container {
   display: flex; /* Make the container take up the full viewport height */
   overflow: auto;
-  max-height: 100vw;
 }
 
 .setting-the-scene-img {
@@ -33,7 +32,6 @@
   background-color: #242424; /* Sidebar background color */
   color: #fff; /* Text color in the sidebar */
   padding: 20px; /* Add padding for spacing */
-  height: 100vw;
 }
 
 .sidebar ul {
@@ -54,6 +52,7 @@
 .dashboard {
   flex: 1; /* Allow the dashboard to flex and take up remaining space */
   /* padding: 20px; Add padding for spacing */
+  max-height: 100vw;
 }
 
 .navbar {
@@ -100,6 +99,7 @@ a:hover {
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   margin: 20px;
+  text-align: left;
 }
 
 .intro-button-alt {

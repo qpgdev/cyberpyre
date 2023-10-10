@@ -33,7 +33,7 @@ function SettingTheScenePage() {
         Around that time, we bought out a bunch of corpos, founded a few of the major megacorps.  
         That neolibertarian movement was just starting to take off, and if you were a Kindred with a millenia 
         worth of wealth to be throwing around, you wanted to invest in tech.  Besides, a lot of the companies had 
-        already built the infrastructure we needed.  Most of their tech already had spyware installed before we ever even 
+        already built the infrastructure we needed.  Most of their shit already had spyware installed before we ever even 
         thought about buying them out.  All we had to do was have Alexa stop listening for what brand of toilet paper you use and
         start listening to the stuff that would get us some real leverage - a casual slur, a 
         rendezvous with the mistress, that kind of stuff.  Humans like to play the good guys, but if you focus the microscope 
