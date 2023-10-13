@@ -28,7 +28,7 @@ function App() {
     <Router>
     <div className = 'app-container'>
       <nav className='navbar'>
-        <p>
+        <p className='navbar-text'>
           cyberpyre docs
         </p>
       </nav>

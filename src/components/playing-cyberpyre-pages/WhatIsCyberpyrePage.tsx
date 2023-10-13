@@ -3,7 +3,7 @@ import '../../App.css';
 function WhatIsCyberpyrePage() {
 
   return (
-    <div >
+    <div>
       <p>
         Cyberpyre is an unofficial supplement for Vampire: the Masquerade - 5th Edition, a tabletop role-playing game 
         which is sometimes colloquially referred to by players as V5.  If you are interested in this supplement, I 

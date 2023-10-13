@@ -6,9 +6,12 @@ function SettingTheScenePage() {
   return (
     <div className="container">
       <div className="scrollable-div">
+        <p className="setting-the-scene-title">
+          "You have no idea what unlife was like in the old days."
+        </p>
         <p className="intro-narrative">
-        You have no idea what unlife was like in the old days.  Well, in MY old days, anyway.  
-        Hiding in gutters and filth, holding in the breath that you no longer had, just prayin' the 
+        Well, in MY old days, anyway.  
+        You'd be hiding in gutters and filth, holding in the breath that you no longer had, just prayin' the 
         flames wouldn’t reach you as the Second Inquisition burned your haven to the ground.  
         It hardly even mattered if you got away - it never took them long to find you again.  
         For us, the first few decades after the turn of the century were filled with nothing 
