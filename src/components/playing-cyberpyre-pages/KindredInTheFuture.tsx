@@ -3,7 +3,7 @@ import '../../App.css';
 function KindredInTheFuture() {
 
   return (
-    <div >
+    <div>
       <p>
         This page is a work in progress.
       </p>

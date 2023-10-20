@@ -4,8 +4,37 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  max-height: 95vh;
+}
+
+.dashboard {
+  flex: 1;
+  max-height: 95vh;
+}
+
+.dropdown-content {
+display: none;
+position: relative;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+color: white;
+}
+
+.dropdown-content a:hover {
+color: rgb(255, 0, 0);
+}
+
 .logo {
-  padding: 1.5em;
+  padding: 2vh;
+  margin-top: 0px;
   border: 1px solid white;
 }
 
@@ -17,69 +46,52 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.container {
-  display: flex; /* Make the container take up the full viewport height */
-  overflow: auto;
-}
-
-.setting-the-scene-img {
-  align-self: baseline;
-}
-
-/* Style the sidebar */
-.sidebar {
-  width: 250px; /* Set a fixed width for the sidebar */
-  background-color: #242424; /* Sidebar background color */
-  color: #fff; /* Text color in the sidebar */
-  padding: 20px; /* Add padding for spacing */
-}
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar ul li {
-  margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Style the dashboard content area */
-.dashboard {
-  flex: 1; /* Allow the dashboard to flex and take up remaining space */
-  /* padding: 20px; Add padding for spacing */
-  max-height: 100vw;
-}
-
 .navbar {
   display: flex;
   background-color: #242424;
   color:#fff;
   padding-right: 20px;
   justify-content: right;
+  min-height: 5vh;
+}
 
-  max-height: 40px;
+.navbar-text {
+  min-height: 2vh;
+  margin: 0px;
+  align-self: flex-end;
+}
+
+.setting-the-scene-img {
+  max-height: 95vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #242424;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 95vh;
 }
 
 :root {
     color: #213547;
     background-color: #ffffff;
 }
+
 a:hover {
     color: #747bff;
 }
-/* button {
-    background-color: #f9f9f9;
-    border-width: 0px;
-    box-shadow:
-    inset 5px 0 20px #f0f,
-    inset -5px 0 20px #0ff;
-} */
 
+.example-text {
+  color: #fff;
+  text-align: justify;
+}
+
+.game-mechanics-text {
+  color: #fff;
+  text-align: justify;
+}
 
 .intro-button {
   background-color: #f9f9f9;
@@ -89,17 +101,10 @@ a:hover {
   inset 0px 0 20px #f0f,
   inset 0px 0 20px #0ff;
 }
+
 .intro-button:hover {
   border-color: #0ff;
   border-width: 2px;
-}
-
-.intro-narrative {
-  color: #fff;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  margin: 20px;
-  text-align: left;
 }
 
 .intro-button-alt {
@@ -127,28 +132,18 @@ border-color: rgb(255, 255, 255);
 border-width: 2px;
 }
 
+.intro-narrative {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  margin: 40px;
+  text-align: justify;
+}
+
 .tab {
 position: relative;
 display: inline-block;  
 justify-content: center;
-}
-
-.dropdown-content {
-display: none;
-position: relative;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-content a {
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-color: white;
-}
-
-.dropdown-content a:hover {
-color: rgb(255, 0, 0);
 }
 
 .tab:hover .dropdown-content {
@@ -157,5 +152,9 @@ display: block;
 
 .scrollable-div {
   overflow: auto;
-  height: 50vw;
+}
+
+.setting-the-scene-title {
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
 }

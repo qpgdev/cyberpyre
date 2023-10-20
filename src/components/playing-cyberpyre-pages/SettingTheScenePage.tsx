@@ -6,9 +6,12 @@ function SettingTheScenePage() {
   return (
     <div className="container">
       <div className="scrollable-div">
+        <p className="setting-the-scene-title">
+          "You have no idea what unlife was like in the old days."
+        </p>
         <p className="intro-narrative">
-        You have no idea what unlife was like in the old days.  Well, in MY old days, anyway.  
-        Hiding in gutters and filth, holding in the breath that you no longer had, just prayin' the 
+        Well, in MY old days, anyway.  
+        You'd be hiding in gutters and filth, holding in the breath that you no longer had, just prayin' the 
         flames wouldn’t reach you as the Second Inquisition burned your haven to the ground.  
         It hardly even mattered if you got away - it never took them long to find you again.  
         For us, the first few decades after the turn of the century were filled with nothing 
@@ -26,7 +29,7 @@ function SettingTheScenePage() {
         It was slow going, and a lot of us didn't make it, but we made it work. However we had to do it, we made it happen.  
         Blackmail, coercion, intimidation, bribes, the works.  Things we’d already been doing to govs for centuries - 
         we just had more information, now.  Pushing the right people out of office, 
-        letting the right ones in.  The church saw numbers drops, which saw tithes drop, and 
+        letting the right ones in.  The church saw numbers drop, which saw tithes drop, and 
         the Inquisition started finding it hard to mount a classified global assault 
         without a single government willing to grant them the funding.<br></br> <br></br>
 
