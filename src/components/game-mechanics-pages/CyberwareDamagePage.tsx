@@ -69,7 +69,8 @@ function CyberwareDamagePage() {
         </p> 
         <p className ='game-mechanics-text'>
             Damaged cyberware can be repaired by a character with the right know-how, facilities, and equipment. 
-            Characters attempting to repair cyberware should follow the rules for Installing, Removing, or Swapping Cyberware listed above, 
+            Characters attempting to repair cyberware should follow the rules for Installing, Removing, or Swapping Cyberware listed within the <strong>installing / removing cyberware</strong> page 
+            listed under the <strong>game mechanics</strong> tab, 
             increasing the difficulty by 1 for each level of damage the cyberware has sustained and repairing up to two levels of damage worth 
             of cyberware for each success greater than the margin on the Technology roll. 
             This roll cannot repair beyond the maximum Cyberware Density of the installed cyberware.
