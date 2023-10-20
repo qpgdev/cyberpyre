@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import darkpackLogo from '../src/assets/darkpack_logo2.png';
 
 // Import sidebar tabs
 import PlayingCyberpyreTab from './components/sidebar-tabs/PlayingCyberpyreTab';
@@ -17,20 +18,22 @@ import KindredInTheFuture from './components/playing-cyberpyre-pages/KindredInTh
 
 // Import game-mechanics pages
 import CyberwareDensityPage from './components/game-mechanics-pages/CyberwareDensityPage';
+import GlitchDicePage from './components/game-mechanics-pages/GlitchDicePage';
+import CompulsionsPage from './components/game-mechanics-pages/CompulsionsPage';
+import InstallingRemovingPage from './components/game-mechanics-pages/InstallingRemovingPage';
+import CyberwareDamagePage from './components/game-mechanics-pages/CyberwareDamagePage';
 
 // Import cyberware-and-augmentations pages
 import WhatAreAugmentations from './components/cyberware-and-augmentations/WhatAreAugmentationsPage';
-
-// I WANT SETTING THE SCENE TO HAVE A SCROLLABLE DIV
 
 function App() {
   return (
     <Router>
     <div className = 'app-container'>
       <nav className='navbar'>
-        <p className='navbar-text'>
-          cyberpyre docs
-        </p>
+        <a href="https://www.paradoxinteractive.com/games/world-of-darkness/community/dark-pack-agreement">
+          <img style={{maxWidth: '2.2vw'}}src={darkpackLogo}></img>
+        </a>
       </nav>
       <div className='container'>
         <div className='sidebar'>
@@ -53,6 +56,10 @@ function App() {
               <Route path="/cyberware-and-augmentations" element={<MainPage/>} />
               <Route path="/storyteller-resources/loresheets" element={<MainPage/>} />
               <Route path="/game-mechanics/cyberware-density" element={<CyberwareDensityPage/>} />
+              <Route path="/game-mechanics/glitch-dice" element={<GlitchDicePage/>} />
+              <Route path="/game-mechanics/compulsions" element={<CompulsionsPage/>} />
+              <Route path="/game-mechanics/installing-removing" element={<InstallingRemovingPage/>} />
+              <Route path="/game-mechanics/cyberware-damage" element={<CyberwareDamagePage/>} />
               <Route path="cyberware-and-augmentations/what-are-augmentations" element={<WhatAreAugmentations/>}/>
             </Routes>
         </div>

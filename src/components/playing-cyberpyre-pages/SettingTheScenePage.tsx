@@ -29,7 +29,7 @@ function SettingTheScenePage() {
         It was slow going, and a lot of us didn't make it, but we made it work. However we had to do it, we made it happen.  
         Blackmail, coercion, intimidation, bribes, the works.  Things we’d already been doing to govs for centuries - 
         we just had more information, now.  Pushing the right people out of office, 
-        letting the right ones in.  The church saw numbers drops, which saw tithes drop, and 
+        letting the right ones in.  The church saw numbers drop, which saw tithes drop, and 
         the Inquisition started finding it hard to mount a classified global assault 
         without a single government willing to grant them the funding.<br></br> <br></br>
 

@@ -9,7 +9,23 @@ function GameMechanicsTab() {
 
   const navigateToCyberwareDensity = () => {
     navigate('/game-mechanics/cyberware-density');
-};
+  };
+
+  const navigateToGlitchDice = () => {
+    navigate('/game-mechanics/glitch-dice');
+  }
+
+  const navigateToCompulsions = () => {
+    navigate('/game-mechanics/compulsions');
+  }
+
+  const navigateToInstallingRemoving = () => {
+    navigate('/game-mechanics/installing-removing');
+  }
+
+  const navigateToCyberwareDamage = () => {
+    navigate('/game-mechanics/cyberware-damage');
+  }
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -29,6 +45,10 @@ function GameMechanicsTab() {
       {isOpen && (
         <div className="dropdown-content">
           <a onClick={navigateToCyberwareDensity}>cyberware density</a>
+          <a onClick={navigateToGlitchDice}>glitch dice</a>
+          <a onClick={navigateToCompulsions}>cybernetic compulsions</a>
+          <a onClick={navigateToInstallingRemoving}>installing / removing cyberware</a>
+          <a onClick={navigateToCyberwareDamage}>cyberware damage</a>
         </div>
       )}
     </div>

@@ -83,6 +83,16 @@ a:hover {
     color: #747bff;
 }
 
+.example-text {
+  color: #fff;
+  text-align: justify;
+}
+
+.game-mechanics-text {
+  color: #fff;
+  text-align: justify;
+}
+
 .intro-button {
   background-color: #f9f9f9;
   border-width: 0px;
