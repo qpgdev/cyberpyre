@@ -9,8 +9,13 @@ function CompulsionsPage() {
             cybernetic compulsions
         </p>
         <p className ='game-mechanics-text'>
-            Some in-game events (such as a player getting a <strong>Glitchy Critical</strong>) can result in a character experiencing a <strong>Cybernetic Compulsion, </strong>
+            Certain in-game events (such as a player getting a <strong>Glitchy Critical</strong>) can result in a character experiencing a <strong>Cybernetic Compulsion, </strong>
             causing a character to become acutely aware of (or beholden to) the cybernetics in their body.
+        </p>
+        <p className ='game-mechanics-text'>
+            Provided below are some example compulsions certified to make players sweat.  Feel free to take creative liberties here - if there is a better narrative compulsion
+            for that character to have in the moment, go for it.  The goal with compulsions is to remind your players that their choice 
+            to trade flesh and bone for power has real consequences on their agency over their character.
         </p>
         <div className='cyberpyre-density-effects-table' style={{border: '2px solid', marginTop: '50px', marginBottom: '50px', marginLeft: '50px', marginRight: '50px'}}>
         <p >

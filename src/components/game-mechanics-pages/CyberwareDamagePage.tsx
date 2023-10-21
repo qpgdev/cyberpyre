@@ -42,7 +42,7 @@ function CyberwareDamagePage() {
             <strong> Example: </strong>
             <em>Abby has a neural processor with a Cyberware Density of 2, 
             a cybernetic arm with a Cyberware Density of 3 which grants her 3 levels in Potence, 
-            and a cybernetic leg with a Cyberware Density of 1 which grants her +2 to her Dexterity and +1 point of Armor. 
+            and a cybernetic leg with a Cyberware Density of 1 which grants her +1 to her Dexterity and +1 point of Armor. 
             Abby has 5 Health boxes and currently suffers from five levels of Superficial damage. 
             Since each box of her Health tracker is filled, she is considered to be Impaired. 
             Any additional damage to her person will also cause damage to her cyberware. 
@@ -53,7 +53,7 @@ function CyberwareDamagePage() {
             as well as destroying the chip installed in that slot; 
             the damage to her arm causes her to lose one dot in Potence, 
             which also causes her to lose access to a level three Potence power; 
-            the damage to her leg causes her to lose the +2 bonus to her Dexterity and the +1 to her Armor.</em>
+            the damage to her leg causes her to lose the +1 bonus to her Dexterity and the +1 to her Armor.</em>
         </p>
         <p className ='game-mechanics-text'>
             A Called Shot on a specific piece of cyberware by an assailant during combat is made with a negative modifier to the attacker's dice pool 

@@ -7,8 +7,8 @@ function WhatIsCyberpyrePage() {
     <div className='scrollable-div' style={{maxHeight: '95vh'}}>
       <div style={{display: 'flex'}}>
       <div style ={{ marginTop: '50px', marginLeft: '100px', marginRight: '100px', justifyContent:'center'}}>
-        <p className ='setting-the-scene-title' style={{fontFamily: 'Orbitron'}}>
-            welcome to bite city
+        <p className ='setting-the-scene-title' style={{fontFamily: 'Orbitron', fontSize: '50px'}}>
+            Welcome to Bite City, choom.
         </p>
         <p className ='game-mechanics-text'>
           <em>cyberpyre</em> is an unofficial supplement for Vampire: the Masquerade - 5th Edition, a tabletop role-playing game 
