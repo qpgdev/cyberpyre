@@ -1,15 +1,22 @@
-# React + TypeScript + Vite
+# What Is Cyberpyre?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<em>cyberpyre</em> is an unofficial supplement for Vampire: the Masquerade - 5th Edition, a tabletop role-playing game 
+which is sometimes colloquially referred to by players as <em>V5</em>.  If you are interested in this supplement, I 
+would recommend finding a copy of the V5 Corebook, and potentially the V5 Player’s Guide.  While references to 
+core mechanics of V5 will be provided, this supplement will largely assume that you have played V5 before, or 
+are at least familiar with most of the core mechanics.  If a core concept of V5 is more thoroughly explained in the 
+source material, references to the official books will be provided as necessary.
 
-Currently, two official plugins are available:
+## How Can I Contribute?
+<em>cyberpyre</em> is a passion project, and the amount of resources able to be dedicated to it are finite.  If you'd like to contribute, consider donating your talents with:\
+&bull; Themed or character artwork;\
+&bull; Fun lore or character ideas;\
+&bull; Short stories or flavor text;\
+Email submissions to qpgdevelopment@gmail.com and make sure to include your name or a tag with the submission - if the contribution is used, I will add your name to the <strong> contributors </strong> page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Vite Production Linting
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+If you are developing a production application, Vite recommends updating the configuration to enable type aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
 
