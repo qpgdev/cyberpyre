@@ -15,13 +15,13 @@ function WhatAreAugmentations() {
                     In cyberpyre, installed cyberware is typically mechanically represented by <strong>Augmentations</strong>.
                     There are many forms of Augmentations, including:
                 </p>
-                <div style={{display: 'flex', justifyContent: 'center'}}>
-                <p className ='game-mechanics-text' style={{padding: '10px', marginTop: '20px', marginBottom: '20px', marginLeft: '50px', marginRight: '50px', textAlign: 'left'}}>
-                    &bull; Augmentations that increase one of a character's Attributes; <br></br>
-                    &bull; Neural Processors that allow for bonuses to Skills; <br></br>
-                    &bull; Operating Systems which provide unique Powers; <br></br>
-                    &bull; Augmentation Merits that allow for specialized abilities; <br></br>
-                    &bull; Weapon Augmentations. <br></br>
+                <div style={{display: 'flex'}}>
+                <p className ='game-mechanics-text' style={{padding: '10px', marginTop: '0px', marginBottom: '0px', marginLeft: '20px', marginRight: '0px', textAlign: 'left'}}>
+                    &bull; <strong>Attribute Augmentations</strong> that increase one of a character's Attributes; <br></br>
+                    &bull; <strong>Neural Processors</strong> that allow for bonuses to Skills; <br></br>
+                    &bull; <strong>Operating Systems</strong> which provide unique Powers; <br></br>
+                    &bull; <strong>Augmentation Merits</strong> that allow for specialized abilities; <br></br>
+                    &bull; <strong>Weapon</strong> Augmentations. <br></br>
                 </p>
                 </div>
                 <p className='game-mechanics-text'>
