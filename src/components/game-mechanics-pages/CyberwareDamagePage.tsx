@@ -42,7 +42,7 @@ function CyberwareDamagePage() {
             <strong> Example: </strong>
             <em>Abby has a neural processor with a Cyberware Density of 2, 
             a cybernetic arm with a Cyberware Density of 3 which grants her 3 levels in Potence, 
-            and a cybernetic leg with a Cyberware Density of 1 which grants her +2 to her Dexterity and +1 point of Armor. 
+            and a cybernetic leg with a Cyberware Density of 1 which grants her +1 to her Dexterity and +1 point of Armor. 
             Abby has 5 Health boxes and currently suffers from five levels of Superficial damage. 
             Since each box of her Health tracker is filled, she is considered to be Impaired. 
             Any additional damage to her person will also cause damage to her cyberware. 
@@ -53,7 +53,7 @@ function CyberwareDamagePage() {
             as well as destroying the chip installed in that slot; 
             the damage to her arm causes her to lose one dot in Potence, 
             which also causes her to lose access to a level three Potence power; 
-            the damage to her leg causes her to lose the +2 bonus to her Dexterity and the +1 to her Armor.</em>
+            the damage to her leg causes her to lose the +1 bonus to her Dexterity and the +1 to her Armor.</em>
         </p>
         <p className ='game-mechanics-text'>
             A Called Shot on a specific piece of cyberware by an assailant during combat is made with a negative modifier to the attacker's dice pool 
@@ -69,7 +69,8 @@ function CyberwareDamagePage() {
         </p> 
         <p className ='game-mechanics-text'>
             Damaged cyberware can be repaired by a character with the right know-how, facilities, and equipment. 
-            Characters attempting to repair cyberware should follow the rules for Installing, Removing, or Swapping Cyberware listed above, 
+            Characters attempting to repair cyberware should follow the rules for Installing, Removing, or Swapping Cyberware listed within the <strong>installing / removing cyberware</strong> page 
+            listed under the <strong>game mechanics</strong> tab, 
             increasing the difficulty by 1 for each level of damage the cyberware has sustained and repairing up to two levels of damage worth 
             of cyberware for each success greater than the margin on the Technology roll. 
             This roll cannot repair beyond the maximum Cyberware Density of the installed cyberware.

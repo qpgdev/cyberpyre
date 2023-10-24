@@ -10,7 +10,8 @@ function GlitchDicePage() {
         </p>
         <p className ='game-mechanics-text'>
             Each time a character with cyberware compiles a dice pool (see Vampire: the Masquerade: 5th Ed Corebook, p.___) which utilizes any of that cyberware, 
-            the dice pool must be augmented with <strong>Glitch Dice</strong>. 
+            the dice pool must be augmented with <strong>Glitch Dice</strong> (usually blue or purple, 
+            but you may choose any color other than those you are using for Hunger dice or normal dice). 
             Attribute rolls, Discipline power rolls, Operating System power rolls, 
             and any other roll which utilize a character’s installed cyberware will swap a number of normal dice with Glitch Dice equal to half their character’s Cyberware Density, rounded up.
         </p>

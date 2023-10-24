@@ -7,7 +7,7 @@ function CyberwareDensityPage() {
 
     <div style ={{ marginTop: '50px', marginLeft: '200px', marginRight: '200px'}}>
       <p className="setting-the-scene-title">
-          what is <strong> cyberware density</strong>?
+          what is cyberware density?
       </p>
       <p className ='game-mechanics-text'>
         In <em> cyberpyre</em>, 

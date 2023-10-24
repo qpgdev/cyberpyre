@@ -37,7 +37,7 @@ function App() {
       </nav>
       <div className='container'>
         <div className='sidebar'>
-          <p className='logo'> 
+          <p className='logo' style={{fontFamily: 'Orbitron'}}> 
             cyberpyre
           </p>
           <PlayingCyberpyreTab></PlayingCyberpyreTab>

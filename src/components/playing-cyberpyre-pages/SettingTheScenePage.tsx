@@ -6,12 +6,13 @@ function SettingTheScenePage() {
   return (
     <div className="container">
       <div className="scrollable-div">
-        <p className="setting-the-scene-title">
-          "You have no idea what unlife was like in the old days."
+        <p className="setting-the-scene-title" style={{fontFamily: 'Orbitron'}}>
+          "You have no idea what unlife <br></br>
+          was like in the old days."
         </p>
-        <p className="intro-narrative">
+        <p className="intro-narrative"style={{fontFamily: 'Orbitron', fontSize:'20px'}} >
         Well, in MY old days, anyway.  
-        You'd be hiding in gutters and filth, holding in the breath that you no longer had, just prayin' the 
+        You'd be hiding in gutters and filth, holding in the breath you no longer had, just prayin' the 
         flames wouldn’t reach you as the Second Inquisition burned your haven to the ground.  
         It hardly even mattered if you got away - it never took them long to find you again.  
         For us, the first few decades after the turn of the century were filled with nothing 
@@ -51,8 +52,9 @@ function SettingTheScenePage() {
           way if you get a bit too thirsty on a night out. <br></br> <br></br>
 
         Anyway, you were saying we have to be careful, but that’s the neat part - we kind of don’t.  Not anymore.  The Masquerade 
-        is still on, but no one can tell if it’s a Kindred or a cyberpsycho tearing someone’s throat out.  Who has the time to keep 
+        is still on, but no one can tell if it’s a Kindred or a cyberpsycho tearin' someone’s throat out.  Who has the time to keep 
         track of every murder nowadays?  Mortals have short memories.  <br></br> <br></br>
+
         Rest easy, choom.  We won.
         </p>
       </div>
