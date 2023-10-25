@@ -12,6 +12,8 @@ source material, references to the official books will be provided as necessary.
 &bull; Themed or character artwork;\
 &bull; Fun lore or character ideas;\
 &bull; Short stories or flavor text;\
+&bull; Graphic design or UX / UI improvements;\
+&bull; Any other contributions you feel would benefit the supplement.
 Email submissions to qpgdevelopment@gmail.com and make sure to include your name or a tag with the submission - if the contribution is used, I will add your name to the <strong> contributors </strong> page.
 
 ## Vite Production Linting
