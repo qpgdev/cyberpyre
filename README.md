@@ -10,7 +10,7 @@ source material, references to the official books will be provided as necessary.
 ## How Can I Contribute?
 <em>cyberpyre</em> is a passion project, and the amount of resources able to be dedicated to it are finite.  If you'd like to contribute, consider donating your talents with:\
 &bull; Themed or character artwork;\
-&bull; Fun lore or character ideas;\
+&bull; Lore or character ideas;\
 &bull; Short stories or flavor text;\
 &bull; Graphic design or UX / UI improvements;\
 &bull; Any other contributions you feel would benefit the supplement.
