@@ -1,4 +1,5 @@
 import cyberSalubri from '../../assets/cyberpunk-5841711_1920.jpg';
+import ExperimentalCyberwareTable from './what-are-augmentations-page-components/ExperimentalCyberwareTable';
 
 function WhatAreAugmentations() {
 
@@ -30,18 +31,10 @@ function WhatAreAugmentations() {
                 and it is left to Storyteller discretion whether the Cyberware Density of a custom piece of equipment needs to be increased at all during the course of the game. 
                 After all, the full effects of “experimental” cyberware are hard to predict for both ripperdocs and Storytellers alike.
                 </p>
-                <p className='game-mechanics-text'>
-                Weak or niche experimental cyberware should begin with a Cyberware Density of 1;
-                Unremarkable or common experimental cyberware should begin with a Cyberware Density of 2;
-                Reasonably strong experimental cyberware should begin with a Cyberware Density of 3;
-                Very strong experimental cyberware should begin with a Cyberware Density of 4;
-                Powerful or story-altering experimental cyberware should begin with a Cyberware Density of 5.
-            </p>
+                <ExperimentalCyberwareTable></ExperimentalCyberwareTable>
                 </div>
                 <img src={cyberSalubri} style={{maxHeight: '550px'}}></img>
             </div>
-
-
 
         </div>
 
