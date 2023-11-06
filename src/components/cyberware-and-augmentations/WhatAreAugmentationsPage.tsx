@@ -5,10 +5,6 @@ import ExperimentalCyberwareTable from './what-are-augmentations-page-components
 
 function WhatAreAugmentations() {
 
-    const WhatAreAugmentationsStylingsTextBox = {
-
-    }
-
     return (
         <div className="container">
             <div className="scrollable-div">
