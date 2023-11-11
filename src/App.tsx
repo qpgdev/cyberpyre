@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import darkpackLogo from '../src/assets/darkpack_logo2.png';
 
-// Import sidebar tabs
+// Import sidebar tabs and logo
+import CyberpyreLogo from './components/CyberpyreLogo';
 import PlayingCyberpyreTab from './components/sidebar-tabs/PlayingCyberpyreTab';
 import GameMechanicsTab from './components/sidebar-tabs/GameMechanicsTab';
 import CyberwareTab from './components/sidebar-tabs/CyberwareTab';
@@ -27,6 +28,7 @@ import CyberwareDamagePage from './components/game-mechanics-pages/CyberwareDama
 import WhatAreAugmentations from './components/cyberware-and-augmentations/WhatAreAugmentationsPage';
 
 function App() {
+
   return (
     <Router>
     <div className = 'app-container'>
@@ -37,9 +39,7 @@ function App() {
       </nav>
       <div className='container'>
         <div className='sidebar'>
-          <p className='logo' style={{fontFamily: 'Orbitron'}}> 
-            cyberpyre
-          </p>
+          <CyberpyreLogo></CyberpyreLogo>
           <PlayingCyberpyreTab></PlayingCyberpyreTab>
           <GameMechanicsTab></GameMechanicsTab>
           <CyberwareTab></CyberwareTab>
@@ -47,7 +47,7 @@ function App() {
         </div>
         <div className='dashboard'>
             <Routes>
-              <Route path="/" element={<MainPage/>} />
+              <Route path="/" element={<WhatIsCyberpyrePage/>} />
               <Route path="/playing-cyberpyre/what-is-cyberpyre" element={<WhatIsCyberpyrePage/>} />
               <Route path="/playing-cyberpyre/setting-the-scene" element={<SettingTheScenePage/>} />
               <Route path="/playing-cyberpyre/kindred-in-the-future" element={<KindredInTheFuture/>} />
