@@ -31,6 +31,9 @@ If you are developing a production application, Vite recommends updating the con
    },
 ```
 
+Running list of bugs / to-do:
+- Dropdowns on tabs should remain open once clicked, not just clicked on-hover
+
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
