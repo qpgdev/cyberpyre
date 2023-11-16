@@ -29,7 +29,7 @@ color: white;
 }
 
 .dropdown-content a:hover {
-color: rgb(255, 0, 0);
+color:  #0ff;
 }
 
 .logo {
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .intro-button-selected {
-background-color: #ff0000;
+background-color: #c44ae2;
 color: white;
 border-width: 0px;
 margin: 10px;
@@ -129,7 +129,7 @@ width: 230px;
 }
 
 .intro-button-selected:hover {
-border-color: rgb(255, 255, 255);
+border-color:  #0ff;
 border-width: 2px;
 }
 
