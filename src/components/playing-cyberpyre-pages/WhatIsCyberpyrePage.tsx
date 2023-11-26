@@ -11,6 +11,15 @@ function WhatIsCyberpyrePage() {
             Welcome to Bite City, choom.
         </p>
         <p className ='game-mechanics-text'>
+        The year is 2100. The blaze of the Second Inquisition, launched against Kindred almost a century ago, is now nothing but long-cold ash.  
+        The Camarilla’s last-ditch decision to embrace technology in the midst of one of the greatest onslaughts they’ve ever faced has catapulted 
+        them into a position of power that they haven’t seen since the Dark Ages.  
+        In the world of Cyberpyre, the Cam controls the megacorps, the Anarchs run the streets, 
+        and mortals try the best they can to scrape by in a world where working 80 hours a week still doesn’t bring in enough credits to afford 
+        a studio apartment.  So what now?
+
+        </p>   
+        <p className ='game-mechanics-text'>
           <em>cyberpyre</em> is an unofficial supplement for Vampire: the Masquerade - 5th Edition, a tabletop role-playing game 
           which is sometimes colloquially referred to by players as <em>V5</em>.  If you are interested in this supplement, I 
           would recommend finding a copy of the V5 Corebook, and potentially the V5 Player’s Guide.  While references to 
