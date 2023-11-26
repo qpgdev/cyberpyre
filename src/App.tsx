@@ -8,6 +8,7 @@ import PlayingCyberpyreTab from './components/sidebar-tabs/PlayingCyberpyreTab';
 import GameMechanicsTab from './components/sidebar-tabs/GameMechanicsTab';
 import CyberwareTab from './components/sidebar-tabs/CyberwareTab';
 import StorytellerTab from './components/sidebar-tabs/StorytellerTab';
+import AboutTab from './components/sidebar-tabs/AboutTab';
 
 // Import pages
 import MainPage from './components/main-page/MainPage';
@@ -27,13 +28,16 @@ import CyberwareDamagePage from './components/game-mechanics-pages/CyberwareDama
 // Import cyberware-and-augmentations pages
 import WhatAreAugmentations from './components/cyberware-and-augmentations/WhatAreAugmentationsPage';
 
+// Import about pages
+import SupportTheProject from './components/about-pages/SupportTheProject';
+
 function App() {
 
   return (
     <Router>
     <div className = 'app-container'>
       <nav className='navbar'>
-        <a href="https://www.paradoxinteractive.com/games/world-of-darkness/community/dark-pack-agreement">
+        <a href="https://www.paradoxinteractive.com/games/world-of-darkness/community/dark-pack-agreement" target="_blank" rel="noopener noreferrer">
           <img style={{maxWidth: '2.2vw'}}src={darkpackLogo}></img>
         </a>
       </nav>
@@ -44,6 +48,7 @@ function App() {
           <GameMechanicsTab></GameMechanicsTab>
           <CyberwareTab></CyberwareTab>
           <StorytellerTab></StorytellerTab>
+          <AboutTab></AboutTab>
         </div>
         <div className='dashboard'>
             <Routes>
@@ -60,7 +65,8 @@ function App() {
               <Route path="/game-mechanics/compulsions" element={<CompulsionsPage/>} />
               <Route path="/game-mechanics/installing-removing" element={<InstallingRemovingPage/>} />
               <Route path="/game-mechanics/cyberware-damage" element={<CyberwareDamagePage/>} />
-              <Route path="cyberware-and-augmentations/what-are-augmentations" element={<WhatAreAugmentations/>}/>
+              <Route path="/cyberware-and-augmentations/what-are-augmentations" element={<WhatAreAugmentations/>}/>
+              <Route path="/about/support-the-project" element={<SupportTheProject></SupportTheProject>} />
             </Routes>
         </div>
       </div>

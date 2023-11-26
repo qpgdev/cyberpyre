@@ -14,7 +14,7 @@ function WhatIsCyberpyrePage() {
         The year is 2100. The blaze of the Second Inquisition, launched against Kindred almost a century ago, is now nothing but long-cold ash.  
         The Camarilla’s last-ditch decision to embrace technology in the midst of one of the greatest onslaughts they’ve ever faced has catapulted 
         them into a position of power that they haven’t seen since the Dark Ages.  
-        In the world of Cyberpyre, the Cam controls the megacorps, the Anarchs run the streets, 
+        In the world of <em>cyberpyre,</em> the Cam controls the megacorps, the Anarchs run the streets, 
         and mortals try the best they can to scrape by in a world where working 80 hours a week still doesn’t bring in enough credits to afford 
         a studio apartment.  So what now?
 
