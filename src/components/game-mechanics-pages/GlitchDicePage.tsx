@@ -30,7 +30,11 @@ function GlitchDicePage() {
         </p>
 
         <p className ='game-mechanics-text'>
-            For vampires, any Glitch Dice in their dice pool are assumed to be both Hunger Dice and Glitch Dice simultaneously.  First swap Glitch dice for normal dice, subtract the number of Glitch dice added from the Hunger dice to be added, then swap the remaining Hunger dice with normal dice as usual.  The Storyteller should be sure to describe a Glitchy Critical as if the vampire also rolled a Messy Critical (see Vampire: the Masquerade: 5th Ed Corebook, p.___).
+            For vampires, any Glitch Dice in their dice pool are assumed to be both Hunger Dice and Glitch Dice simultaneously.  
+            First swap Glitch dice for normal dice, subtract the number of Glitch dice added from the Hunger dice to be added, 
+            then swap the remaining Hunger dice with normal dice as usual.  
+            The Storyteller should be sure to describe a Glitchy Critical as if the vampire also rolled a Messy Critical 
+            (see Vampire: the Masquerade: 5th Ed Corebook, p.___).
       </p>
 
       <p className ='example-text' style={{border: '2px solid', padding: '10px', marginTop: '50px', marginBottom: '50px', marginLeft: '50px', marginRight: '50px'}}>
@@ -44,7 +48,6 @@ function GlitchDicePage() {
             Her dice pool will consist of two Glitch dice and two Hunger dice.</em>
       </p>
     </div>
-
     </div>
   )
 }

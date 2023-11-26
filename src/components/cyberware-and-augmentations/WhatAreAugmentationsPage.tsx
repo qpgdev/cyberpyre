@@ -12,8 +12,8 @@ function WhatAreAugmentations() {
                 <p className="setting-the-scene-title">
                     what are augmentations?
                 </p>
-                <p className='game-mechanics-text' style={{marginTop: '0px', textAlign: 'left'}}>
-                    In cyberpyre, installed cyberware is typically mechanically represented by <strong>Augmentations</strong>.
+                <p className='game-mechanics-text' style={{marginTop: '0px'}}>
+                    In <em>cyberpyre,</em> installed cyberware is typically mechanically represented by <strong>Augmentations</strong>.
                     There are many forms of Augmentations, including:
                 </p>
                 <div style={{display: 'flex'}}>
@@ -22,7 +22,7 @@ function WhatAreAugmentations() {
                         &bull; <strong>Neural Processors</strong> that allow for bonuses to Skills; <br></br>
                         &bull; <strong>Operating Systems</strong> which provide unique Powers; <br></br>
                         &bull; <strong>Augmentation Merits</strong> that allow for specialized abilities; <br></br>
-                        &bull; <strong>Weapon</strong> Augmentations. <br></br>
+                        &bull; <strong>Weapon Augmentations </strong> such as spring-loaded arm blades, thermal garrotes, "finger" guns, and more. <br></br>
                     </p>
                 </div>
                 <p className='game-mechanics-text'>
