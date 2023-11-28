@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Import stylings / images
 import './App.css';
 import darkpackLogo from '../src/assets/darkpack_logo2.png';
 
@@ -8,16 +10,16 @@ import AboutCyberpyreTab from './components/sidebar-tabs/AboutCyberpyreTab';
 import GameMechanicsTab from './components/sidebar-tabs/GameMechanicsTab';
 import CyberwareTab from './components/sidebar-tabs/CyberwareTab';
 import StorytellerTab from './components/sidebar-tabs/StorytellerTab';
-import AboutTab from './components/sidebar-tabs/AboutTab';
+// import AboutTab from './components/sidebar-tabs/AboutTab';
 
 // Import pages
 import MainPage from './components/main-page/MainPage';
-import SettingTheScenePage from './components/playing-cyberpyre-pages/SettingTheScenePage';
+import SettingTheScenePage from './components/about-cyberpyre-pages/SettingTheScenePage';
 
-// Import  playing-cyberpyre pages
-import WhatIsCyberpyrePage from './components/playing-cyberpyre-pages/WhatIsCyberpyrePage';
-import KindredInTheFuture from './components/playing-cyberpyre-pages/KindredInTheFuture';
-import SupportTheProject from './components/about-pages/SupportTheProject';
+// Import  about-cyberpyre pages
+import WhatIsCyberpyrePage from './components/about-cyberpyre-pages/WhatIsCyberpyrePage';
+import KindredInTheFuture from './components/about-cyberpyre-pages/KindredInTheFuture';
+import SupportTheProject from './components/about-cyberpyre-pages/SupportTheProject';
 
 // Import game-mechanics pages
 import CyberwareDensityPage from './components/game-mechanics-pages/CyberwareDensityPage';
@@ -50,10 +52,10 @@ function App() {
         <div className='dashboard'>
             <Routes>
               <Route path="/" element={<SettingTheScenePage/>} />
+              <Route path="/main" element={<MainPage/>} />
               <Route path="/about-cyberpyre/what-is-cyberpyre" element={<WhatIsCyberpyrePage/>} />
               <Route path="/about-cyberpyre/support-the-project" element={<SupportTheProject></SupportTheProject>} />
               <Route path="/about-cyberpyre/kindred-in-the-future" element={<KindredInTheFuture/>} />
-              <Route path="/main" element={<MainPage/>} />
               <Route path="/game-mechanics" element={<MainPage/>} />
               <Route path="/cyberware-and-augmentations" element={<MainPage/>} />
               <Route path="/storyteller-resources/loresheets" element={<MainPage/>} />
@@ -63,7 +65,6 @@ function App() {
               <Route path="/game-mechanics/installing-removing" element={<InstallingRemovingPage/>} />
               <Route path="/game-mechanics/cyberware-damage" element={<CyberwareDamagePage/>} />
               <Route path="/cyberware-and-augmentations/what-are-augmentations" element={<WhatAreAugmentations/>}/>
-
             </Routes>
         </div>
       </div>

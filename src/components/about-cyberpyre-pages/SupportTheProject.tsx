@@ -16,14 +16,14 @@ function SupportTheProject() {
         </p>  
         <div style={{display: 'flex'}}>
           <p className ='game-mechanics-text' style={{padding: '10px', marginTop: '0px', marginBottom: '0px', marginLeft: '20px', marginRight: '0px', textAlign: 'left'}}>
-          &bull; Themed or character artwork; <br></br>
-          &bull; Short stories or flavor text;<br></br>
-          &bull; Graphic design or UX / UI improvements;<br></br>
-          &bull; Bugfixes or ticket submissions;<br></br>
-          &bull; Feedback regarding playtesting;<br></br>
-          &bull; Any other contributions you feel would benefit the supplement.
-                    </p>
-                </div> 
+            &bull; Themed or character artwork; <br></br>
+            &bull; Short stories or flavor text;<br></br>
+            &bull; Graphic design or UX / UI improvements;<br></br>
+            &bull; Bugfixes or ticket submissions;<br></br>
+            &bull; Feedback regarding playtesting;<br></br>
+            &bull; Any other contributions you feel would benefit the supplement.
+          </p>
+        </div> 
         <p className='game-mechanics-text'>
           Email submissions to <em>qpgdevelopment@gmail.com</em>. Make sure to include your name or an alias with the submission - 
           if the contribution is used for the project, I will add your name or alias to the <strong> contributors </strong> page.
