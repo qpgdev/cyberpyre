@@ -11,7 +11,7 @@ function SupportTheProject() {
             Thanks for stopping by!
         </p>
         <p className ='game-mechanics-text'>
-        <em>cyberpyre</em> is a one-man passion project.  
+        <em>cyberpyre</em> is a one-person passion project.  
         If you'd like to contribute, consider donating your talents with:<br></br>
         </p>  
         <div style={{display: 'flex'}}>
