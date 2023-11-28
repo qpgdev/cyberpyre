@@ -17,7 +17,13 @@ function WhatIsCyberpyrePage() {
         In the world of <em>cyberpyre,</em> the Cam controls the megacorps, the Anarchs run the streets, 
         and mortals try the best they can to scrape by in a world where working 80 hours a week still doesn’t bring in enough credits to afford 
         a studio apartment.  So what now?
-
+        </p>   
+        <p className ='game-mechanics-text'>
+          Kindred stalk the neon streets with all of the supernatural tools they perviously had at their disposal, and then some.  
+          Titanium bones, SynthInsight optics, retractable fangs that siphon blood into a second stomach to reduce your hunger... 
+          with the parallel advancements in cybernetics in Blood Sorcery, the possibilities for augmentations are endless.  
+          That being said, mortals have gotten pretty creative with cyberware on their own.  
+          It's harder to puncture the flesh when someone has subdermal armor implants...
         </p>   
         <p className ='game-mechanics-text'>
           <em>cyberpyre</em> is an unofficial supplement for Vampire: the Masquerade - 5th Edition, a tabletop role-playing game 

@@ -4,7 +4,7 @@ import darkpackLogo from '../src/assets/darkpack_logo2.png';
 
 // Import sidebar tabs and logo
 import CyberpyreLogo from './components/CyberpyreLogo';
-import PlayingCyberpyreTab from './components/sidebar-tabs/PlayingCyberpyreTab';
+import AboutCyberpyreTab from './components/sidebar-tabs/AboutCyberpyreTab';
 import GameMechanicsTab from './components/sidebar-tabs/GameMechanicsTab';
 import CyberwareTab from './components/sidebar-tabs/CyberwareTab';
 import StorytellerTab from './components/sidebar-tabs/StorytellerTab';
@@ -12,11 +12,12 @@ import AboutTab from './components/sidebar-tabs/AboutTab';
 
 // Import pages
 import MainPage from './components/main-page/MainPage';
+import SettingTheScenePage from './components/playing-cyberpyre-pages/SettingTheScenePage';
 
 // Import  playing-cyberpyre pages
-import SettingTheScenePage from './components/playing-cyberpyre-pages/SettingTheScenePage';
 import WhatIsCyberpyrePage from './components/playing-cyberpyre-pages/WhatIsCyberpyrePage';
 import KindredInTheFuture from './components/playing-cyberpyre-pages/KindredInTheFuture';
+import SupportTheProject from './components/about-pages/SupportTheProject';
 
 // Import game-mechanics pages
 import CyberwareDensityPage from './components/game-mechanics-pages/CyberwareDensityPage';
@@ -27,9 +28,6 @@ import CyberwareDamagePage from './components/game-mechanics-pages/CyberwareDama
 
 // Import cyberware-and-augmentations pages
 import WhatAreAugmentations from './components/cyberware-and-augmentations/WhatAreAugmentationsPage';
-
-// Import about pages
-import SupportTheProject from './components/about-pages/SupportTheProject';
 
 function App() {
 
@@ -44,18 +42,17 @@ function App() {
       <div className='container'>
         <div className='sidebar'>
           <CyberpyreLogo></CyberpyreLogo>
-          <PlayingCyberpyreTab></PlayingCyberpyreTab>
+          <AboutCyberpyreTab></AboutCyberpyreTab>
           <GameMechanicsTab></GameMechanicsTab>
           <CyberwareTab></CyberwareTab>
           <StorytellerTab></StorytellerTab>
-          <AboutTab></AboutTab>
         </div>
         <div className='dashboard'>
             <Routes>
-              <Route path="/" element={<WhatIsCyberpyrePage/>} />
-              <Route path="/playing-cyberpyre/what-is-cyberpyre" element={<WhatIsCyberpyrePage/>} />
-              <Route path="/playing-cyberpyre/setting-the-scene" element={<SettingTheScenePage/>} />
-              <Route path="/playing-cyberpyre/kindred-in-the-future" element={<KindredInTheFuture/>} />
+              <Route path="/" element={<SettingTheScenePage/>} />
+              <Route path="/about-cyberpyre/what-is-cyberpyre" element={<WhatIsCyberpyrePage/>} />
+              <Route path="/about-cyberpyre/support-the-project" element={<SupportTheProject></SupportTheProject>} />
+              <Route path="/about-cyberpyre/kindred-in-the-future" element={<KindredInTheFuture/>} />
               <Route path="/main" element={<MainPage/>} />
               <Route path="/game-mechanics" element={<MainPage/>} />
               <Route path="/cyberware-and-augmentations" element={<MainPage/>} />
@@ -66,7 +63,7 @@ function App() {
               <Route path="/game-mechanics/installing-removing" element={<InstallingRemovingPage/>} />
               <Route path="/game-mechanics/cyberware-damage" element={<CyberwareDamagePage/>} />
               <Route path="/cyberware-and-augmentations/what-are-augmentations" element={<WhatAreAugmentations/>}/>
-              <Route path="/about/support-the-project" element={<SupportTheProject></SupportTheProject>} />
+
             </Routes>
         </div>
       </div>

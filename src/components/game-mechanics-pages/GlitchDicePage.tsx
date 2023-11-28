@@ -24,7 +24,7 @@ function GlitchDicePage() {
             <em>  You achieve your goal, but at what cost?</em>
         </p>
         <p className ='game-mechanics-text'>
-            If a character fails a dice roll which resulted in at least one 1 on a Glitch die, that is considered a <strong>Terminal Failure.</strong> 
+            If a character fails a dice roll which resulted in at least one 1 on a Glitch die, that is considered a <strong>Terminal Failure.  </strong> 
             The character fails their action catastrophically, in an incredibly obvious way. Terminal Failures often have lasting consequences, 
             and can result in a cyberpsychotic episode or in a <strong>Cybernetic Compulsion</strong> as the character becomes acutely aware of (or beholden to) the cybernetics in their body.
         </p>

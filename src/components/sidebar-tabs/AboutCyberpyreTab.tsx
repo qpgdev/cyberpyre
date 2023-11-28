@@ -1,19 +1,24 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-function PlayingCyberpyreTab() {
+function AboutCyberpyreTab() {
   const [isOpen, setIsOpen] = useState(false);
   const [buttonStyling, setButtonStyling ] = useState('intro-button-alt');
   const navigate = useNavigate();
   const location = useLocation();
 
+
+  // const navigateToSettingTheScene = () => {
+  //   navigate('/playing-cyberpyre/setting-the-scene');
+  // };
+
   const navigateToWhatIsCyberpyre = () => {
-    navigate('/playing-cyberpyre/what-is-cyberpyre');
+    navigate('/about-cyberpyre/what-is-cyberpyre');
   };
 
-  const navigateToSettingTheScene = () => {
-    navigate('/playing-cyberpyre/setting-the-scene');
-  };
+  const navigateToSupportTheProject = () => {
+    navigate('/about-cyberpyre/support-the-project');
+};
 
   // const navigateToKindredInTheFuture = () => {
   // navigate('/playing-cyberpyre/kindred-in-the-future');
@@ -24,7 +29,7 @@ function PlayingCyberpyreTab() {
   };
 
   useEffect(() => {
-    if (location.pathname.startsWith('/playing-cyberpyre')) {
+    if (location.pathname.startsWith('/about-cyberpyre')) {
         setButtonStyling('intro-button-selected')
     } else {
         setButtonStyling('intro-button-alt')
@@ -33,11 +38,12 @@ function PlayingCyberpyreTab() {
 
   return (
     <div className="tab">
-      <button className ={buttonStyling} onClick={toggleDropdown}>playing cyberpyre</button>
+      <button className ={buttonStyling} onClick={toggleDropdown}>about cyberpyre</button>
       {isOpen && (
         <div className="dropdown-content">
+          {/* <a onClick={navigateToSettingTheScene}>setting the scene</a> */}
           <a onClick={navigateToWhatIsCyberpyre}>what is cyberpyre?</a>
-          <a onClick={navigateToSettingTheScene}>setting the scene</a>
+          <a onClick={navigateToSupportTheProject}>support the project</a>
           {/* <a onClick={navigateToKindredInTheFuture}>kindred in the future</a> */}
         </div>
       )}
@@ -45,4 +51,4 @@ function PlayingCyberpyreTab() {
   );
 }
 
-export default PlayingCyberpyreTab;
+export default AboutCyberpyreTab;
