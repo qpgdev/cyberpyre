@@ -4,6 +4,7 @@ import myImage from '../../assets/cyberpunk-ai-gen-woman-looking-shoulder.png';
 function SettingTheScenePage() {
 
   return (
+
     <div className="container">
       <div className="scrollable-div">
         <p className="setting-the-scene-title" style={{fontFamily: 'Orbitron'}}>
