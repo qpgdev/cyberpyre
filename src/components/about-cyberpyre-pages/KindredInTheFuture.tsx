@@ -1,14 +1,11 @@
-import '../../App.css';
+import "../../App.css";
 
 function KindredInTheFuture() {
-
   return (
     <div>
-      <p>
-        This page is a work in progress.
-      </p>
+      <p>This page is a work in progress.</p>
     </div>
-  )
+  );
 }
 
 export default KindredInTheFuture;

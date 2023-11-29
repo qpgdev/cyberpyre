@@ -1,24 +1,23 @@
-import { useState, useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 function AboutCyberpyreTab() {
   const [isOpen, setIsOpen] = useState(false);
-  const [buttonStyling, setButtonStyling ] = useState('intro-button-alt');
+  const [buttonStyling, setButtonStyling] = useState("intro-button-alt");
   const navigate = useNavigate();
   const location = useLocation();
-
 
   // const navigateToSettingTheScene = () => {
   //   navigate('/playing-cyberpyre/setting-the-scene');
   // };
 
   const navigateToWhatIsCyberpyre = () => {
-    navigate('/about-cyberpyre/what-is-cyberpyre');
+    navigate("/about-cyberpyre/what-is-cyberpyre");
   };
 
   const navigateToSupportTheProject = () => {
-    navigate('/about-cyberpyre/support-the-project');
-};
+    navigate("/about-cyberpyre/support-the-project");
+  };
 
   // const navigateToKindredInTheFuture = () => {
   // navigate('/playing-cyberpyre/kindred-in-the-future');
@@ -29,16 +28,18 @@ function AboutCyberpyreTab() {
   };
 
   useEffect(() => {
-    if (location.pathname.startsWith('/about-cyberpyre')) {
-        setButtonStyling('intro-button-selected')
+    if (location.pathname.startsWith("/about-cyberpyre")) {
+      setButtonStyling("intro-button-selected");
     } else {
-        setButtonStyling('intro-button-alt')
+      setButtonStyling("intro-button-alt");
     }
   }, [location.pathname]);
 
   return (
     <div className="tab">
-      <button className ={buttonStyling} onClick={toggleDropdown}>about cyberpyre</button>
+      <button className={buttonStyling} onClick={toggleDropdown}>
+        about cyberpyre
+      </button>
       {isOpen && (
         <div className="dropdown-content">
           {/* <a onClick={navigateToSettingTheScene}>setting the scene</a> */}
