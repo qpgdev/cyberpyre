@@ -51,7 +51,7 @@ function SupportTheProject() {
             to the <strong> contributors </strong> page.
           </p>
           <p className="game-mechanics-text">
-            You may also consider donating on my Patreon{" "}
+            You may also consider donating on my {" "}
             <a
               href="https://github.com/qpgdev/cyberpyre"
               target="_blank"
@@ -59,13 +59,29 @@ function SupportTheProject() {
               style={{ color: "#bd00ff" }}
             >
               {" "}
-              here.
+              Patreon.
             </a>
+            &nbsp; Any donations recieved will be reinvested into the project in the following priority order 
+            (though expect these priorities to change here and there as time goes on): <br></br>
           </p>
+          <p
+              className="game-mechanics-text"
+              style={{
+                padding: "10px",
+                marginTop: "0px",
+                marginBottom: "0px",
+                marginLeft: "20px",
+                marginRight: "0px",
+                textAlign: "left",
+              }}
+            >
+            &bull; Keeping the site up and running; <br></br>
+            &bull; Purchasing artwork for the site. <br></br>
+            </p>
           <p className="game-mechanics-text">
             <em>cyberpyre</em> is open source, which means that all of the
             source code used for the project is publicly available for you to
-            view and use. You can find the source code on GitHub{" "}
+            view and use. You can find the source code on {" "}
             <a
               href="https://github.com/qpgdev/cyberpyre"
               target="_blank"
@@ -73,7 +89,7 @@ function SupportTheProject() {
               style={{ color: "#bd00ff" }}
             >
               {" "}
-              here.
+              GitHub.
             </a>
           </p>
         </div>
