@@ -51,37 +51,9 @@ function SupportTheProject() {
             to the <strong> contributors </strong> page.
           </p>
           <p className="game-mechanics-text">
-            You may also consider donating on my {" "}
-            <a
-              href="https://github.com/qpgdev/cyberpyre"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#bd00ff" }}
-            >
-              {" "}
-              Patreon.
-            </a>
-            &nbsp; Any donations recieved will be reinvested into the project in the following priority order 
-            (though expect these priorities to change here and there as time goes on): <br></br>
-          </p>
-          <p
-              className="game-mechanics-text"
-              style={{
-                padding: "10px",
-                marginTop: "0px",
-                marginBottom: "0px",
-                marginLeft: "20px",
-                marginRight: "0px",
-                textAlign: "left",
-              }}
-            >
-            &bull; Keeping the site up and running; <br></br>
-            &bull; Purchasing artwork for the site. <br></br>
-            </p>
-          <p className="game-mechanics-text">
             <em>cyberpyre</em> is open source, which means that all of the
             source code used for the project is publicly available for you to
-            view and use. You can find the source code on {" "}
+            view and use. You can find the source code on{" "}
             <a
               href="https://github.com/qpgdev/cyberpyre"
               target="_blank"
@@ -91,6 +63,32 @@ function SupportTheProject() {
               {" "}
               GitHub.
             </a>
+          </p>
+          <p className="game-mechanics-text">
+            You may also consider donating on my{" "}
+            <a
+              href="https://github.com/qpgdev/cyberpyre"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#bd00ff" }}
+            >
+              {" "}
+              Patreon.
+            </a>
+            &nbsp; Any donations recieved will be reinvested into the project,
+            either to keep the site up and running or to commission artwork from
+            the community.
+          </p>
+          <p className="game-mechanics-text">
+            Please do not attempt to donate AI generated artwork for the
+            project. While a project like <em>cyberpyre </em> is certainly
+            hungry for artwork in order to hit the right vibe, it's important to
+            me that any donations to this project go towards human artists, who
+            have real mouths to feed. Consider commissioning an artist you enjoy
+            and donating their work to the site!
+          </p>
+          <p className="game-mechanics-text">
+            I sincerely hope that you and your playgroup enjoy the project.
           </p>
         </div>
         <img src={boot} style={{ height: "95vh" }}></img>
