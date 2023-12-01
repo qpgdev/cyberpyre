@@ -15,13 +15,13 @@ function AboutCyberpyreTab() {
     navigate("/about-cyberpyre/what-is-cyberpyre");
   };
 
+  const navigateToKindredInTheFuture = () => {
+    navigate('/about-cyberpyre/kindred-in-the-future');
+    };
+
   const navigateToSupportTheProject = () => {
     navigate("/about-cyberpyre/support-the-project");
   };
-
-  // const navigateToKindredInTheFuture = () => {
-  // navigate('/playing-cyberpyre/kindred-in-the-future');
-  // };
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -44,8 +44,8 @@ function AboutCyberpyreTab() {
         <div className="dropdown-content">
           {/* <a onClick={navigateToSettingTheScene}>setting the scene</a> */}
           <a onClick={navigateToWhatIsCyberpyre}>what is cyberpyre?</a>
+          <a onClick={navigateToKindredInTheFuture}>kindred in the future</a>
           <a onClick={navigateToSupportTheProject}>support the project</a>
-          {/* <a onClick={navigateToKindredInTheFuture}>kindred in the future</a> */}
         </div>
       )}
     </div>
