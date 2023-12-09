@@ -6,20 +6,13 @@ import darkpackLogo from "../src/assets/darkpack_logo2.png";
 
 // Import sidebar tabs and logo
 import CyberpyreLogo from "./components/CyberpyreLogo";
-import AboutCyberpyreTab from "./components/sidebar-tabs/AboutCyberpyreTab";
 import GameMechanicsTab from "./components/sidebar-tabs/GameMechanicsTab";
 import CyberwareTab from "./components/sidebar-tabs/CyberwareTab";
 import StorytellerTab from "./components/sidebar-tabs/StorytellerTab";
 // import AboutTab from './components/sidebar-tabs/AboutTab';
 
-// Import pages
+// Import main page
 import MainPage from "./components/main-page/MainPage";
-import SettingTheScenePage from "./components/about-cyberpyre-pages/SettingTheScenePage";
-
-// Import  about-cyberpyre pages
-import WhatIsCyberpyrePage from "./components/about-cyberpyre-pages/WhatIsCyberpyrePage";
-import KindredInTheFuture from "./components/about-cyberpyre-pages/KindredInTheFuture";
-import SupportTheProject from "./components/about-cyberpyre-pages/SupportTheProject";
 
 // Import game-mechanics pages
 import CyberwareDensityPage from "./components/game-mechanics-pages/CyberwareDensityPage";
@@ -47,28 +40,13 @@ function App() {
         <div className="container">
           <div className="sidebar">
             <CyberpyreLogo></CyberpyreLogo>
-            <AboutCyberpyreTab></AboutCyberpyreTab>
             <GameMechanicsTab></GameMechanicsTab>
             <CyberwareTab></CyberwareTab>
             <StorytellerTab></StorytellerTab>
           </div>
-          <div className="dashboard" style={{overflow: 'auto'}}>
+          <div className="dashboard" style={{ overflow: "auto" }}>
             <Routes>
-              <Route path="/" element={<SettingTheScenePage />} />
-              <Route path="/main" element={<MainPage />} />
-              <Route
-                path="/about-cyberpyre/what-is-cyberpyre"
-                element={<WhatIsCyberpyrePage />}
-              />
-              <Route
-                path="/about-cyberpyre/support-the-project"
-                element={<SupportTheProject></SupportTheProject>}
-              />
-              <Route
-                path="/about-cyberpyre/kindred-in-the-future"
-                element={<KindredInTheFuture />}
-              />
-              <Route path="/game-mechanics" element={<MainPage />} />
+              <Route path="/" element={<MainPage />} />
               <Route
                 path="/cyberware-and-augmentations"
                 element={<MainPage />}
