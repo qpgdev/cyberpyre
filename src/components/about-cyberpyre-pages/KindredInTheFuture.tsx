@@ -1,5 +1,5 @@
 import "../../App.css";
-import boot from "../../assets/neon-boot.png";
+import tokyoByNight from "../../assets/tokyo-by-night.png";
 
 function KindredInTheFuture() {
   const FAQBoxTitleStylings = {
@@ -11,13 +11,14 @@ function KindredInTheFuture() {
   };
 
   return (
-    <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
+    <div className="kindred-in-the-future">
       <div style={{ display: "flex" }}>
+        <img src={tokyoByNight}></img>
         <div
           style={{
-            marginTop: "50px",
             marginLeft: "100px",
             marginRight: "100px",
+            marginBottom: "50px",
             justifyContent: "center",
           }}
         >
@@ -51,8 +52,8 @@ function KindredInTheFuture() {
           </p>
           <p className="game-mechanics-text" style={FAQBoxTitleStylings}>
             <strong>
-              I thought Kindred reverted to their appearance at time of death.
-              How can they have cyberware?
+              I thought Kindred reverted to their appearance at time of death
+              after the Embrace. How can they have cyberware?
             </strong>{" "}
           </p>
           <p className="game-mechanics-text" style={FAQBoxStylings}>
@@ -91,7 +92,6 @@ function KindredInTheFuture() {
             additional information on how to run an Embrace.
           </p>
         </div>
-        <img src={boot} style={{ height: "95vh" }}></img>
       </div>
     </div>
   );

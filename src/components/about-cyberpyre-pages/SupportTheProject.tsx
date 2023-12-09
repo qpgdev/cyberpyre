@@ -1,5 +1,4 @@
-import "../../App.css";
-import boot from "../../assets/neon-boot.png";
+import neonHallway from "../../assets/neon-hallway.png";
 
 function SupportTheProject() {
   return (
@@ -88,10 +87,10 @@ function SupportTheProject() {
             and donating their work to the site!
           </p>
           <p className="game-mechanics-text">
-            I sincerely hope that you and your playgroup enjoy the project.
+            I sincerely hope that you and your playgroup enjoy the project.  Have fun, and stay thirsty!
           </p>
         </div>
-        <img src={boot} style={{ height: "95vh" }}></img>
+        <img src={neonHallway} style={{ height: "95vh" }}></img>
       </div>
     </div>
   );
