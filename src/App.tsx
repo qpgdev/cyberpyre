@@ -23,6 +23,11 @@ import CyberwareDamagePage from "./components/game-mechanics-pages/CyberwareDama
 
 // Import cyberware-and-augmentations pages
 import WhatAreAugmentations from "./components/cyberware-and-augmentations/WhatAreAugmentationsPage";
+import AttributeAugmentationsPage from "./components/cyberware-and-augmentations/AttributeAugmentationsPage";
+import NeuralProcessorsPage from "./components/cyberware-and-augmentations/NeuralProcessorsPage";
+import OperatingSystemsPage from "./components/cyberware-and-augmentations/OperatingSystemsPage";
+import AugmentationMeritsPage from "./components/cyberware-and-augmentations/AugmentationMeritsPage";
+import WeaponAugmentationsPage from "./components/cyberware-and-augmentations/WeaponAugmentationsPage";
 
 function App() {
   return (
@@ -52,10 +57,6 @@ function App() {
                 element={<MainPage />}
               />
               <Route
-                path="/storyteller-resources/loresheets"
-                element={<MainPage />}
-              />
-              <Route
                 path="/game-mechanics/cyberware-density"
                 element={<CyberwareDensityPage />}
               />
@@ -78,6 +79,30 @@ function App() {
               <Route
                 path="/cyberware-and-augmentations/what-are-augmentations"
                 element={<WhatAreAugmentations />}
+              />
+              <Route
+                path="/cyberware-and-augmentations/attribute-augmentations"
+                element={<AttributeAugmentationsPage />}
+              />
+              <Route
+                path="/cyberware-and-augmentations/neural-processors"
+                element={<NeuralProcessorsPage />}
+              />
+              <Route
+                path="/cyberware-and-augmentations/operating-systems"
+                element={<OperatingSystemsPage />}
+              />
+              <Route
+                path="/cyberware-and-augmentations/augmentation-merits"
+                element={<AugmentationMeritsPage />}
+              />
+              <Route
+                path="/cyberware-and-augmentations/weapon-augmentations"
+                element={<WeaponAugmentationsPage />}
+              />
+              <Route
+                path="/storyteller-resources/loresheets"
+                element={<MainPage />}
               />
             </Routes>
           </div>

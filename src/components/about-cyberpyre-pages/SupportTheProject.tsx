@@ -1,6 +1,14 @@
 import neonHallway from "../../assets/neon-hallway.png";
 
+import { useNavigate } from "react-router-dom";
+
 function SupportTheProject() {
+  const navigate = useNavigate();
+
+  const navigateToCyberwareDensity = () => {
+    navigate("/game-mechanics/cyberware-density");
+  };
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div style={{ display: "flex" }}>
@@ -34,25 +42,26 @@ function SupportTheProject() {
                 textAlign: "left",
               }}
             >
-              &bull; Themed or character artwork; <br></br>
+              &bull; Feedback regarding playtesting;<br></br>
+              &bull; Themed or character artwork / photography; <br></br>
               &bull; Short stories or flavor text;<br></br>
               &bull; Graphic design or UX / UI improvements;<br></br>
               &bull; Bugfixes or ticket submissions;<br></br>
-              &bull; Feedback regarding playtesting;<br></br>
               &bull; Any other contributions you feel would benefit the
               supplement.
             </p>
           </div>
           <p className="game-mechanics-text">
             Email submissions to <em>qpgdevelopment@gmail.com</em>. Make sure to
-            include your name or an alias with the submission - if the
+            include your name or an alias with the submission, and your express
+            consent for the emailed material to be used in the project. If the
             contribution is used for the project, I will add your name or alias
             to the <strong> contributors </strong> page.
           </p>
           <p className="game-mechanics-text">
             <em>cyberpyre</em> is open source, which means that all of the
             source code used for the project is publicly available for you to
-            view and use. You can find the source code on{" "}
+            view and use. You can find the source code on
             <a
               href="https://github.com/qpgdev/cyberpyre"
               target="_blank"
@@ -64,7 +73,7 @@ function SupportTheProject() {
             </a>
           </p>
           <p className="game-mechanics-text">
-            You may also consider donating on my{" "}
+            You may also consider donating on
             <a
               href="https://github.com/qpgdev/cyberpyre"
               target="_blank"
@@ -81,14 +90,21 @@ function SupportTheProject() {
           <p className="game-mechanics-text">
             Please do not attempt to donate AI generated artwork for the
             project. While a project like <em>cyberpyre </em> is certainly
-            hungry for artwork in order to hit the right vibe, it's important to
-            me that any donations to this project go towards human artists, who
-            have real mouths to feed. Consider commissioning an artist you enjoy
-            and donating their work to the site!
+            hungry for art in order to deliver the right vibes, it's important
+            to me that any donations to this project go towards human artists,
+            who have real mouths to feed. Consider commissioning an artist you
+            enjoy and donating their work to the site!
           </p>
           <p className="game-mechanics-text">
-            I sincerely hope that you and your playgroup enjoy the project.  Have fun, and stay thirsty!
+            I sincerely hope that you and your friends enjoy playing what I've
+            put together. Have fun, and stay thirsty!
           </p>
+          <button
+            className="intro-button-alt"
+            onClick={navigateToCyberwareDensity}
+          >
+            Get started
+          </button>
         </div>
         <img src={neonHallway} style={{ height: "95vh" }}></img>
       </div>
