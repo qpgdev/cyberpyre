@@ -11,6 +11,26 @@ function CyberwareTab() {
     navigate("/cyberware-and-augmentations/what-are-augmentations");
   };
 
+  const navigateToAttributeAugmentations = () => {
+    navigate("/cyberware-and-augmentations/attribute-augmentations");
+  };
+
+  const navigateToNeuralProcessors = () => {
+    navigate("/cyberware-and-augmentations/neural-processors");
+  };
+
+  const navigateToOperatingSystems = () => {
+    navigate("/cyberware-and-augmentations/operating-systems");
+  };
+
+  const navigateToAugmentationMerits = () => {
+    navigate("/cyberware-and-augmentations/augmentation-merits");
+  };
+
+  const navigateToWeaponAugmentations = () => {
+    navigate("/cyberware-and-augmentations/weapon-augmentations");
+  };
+
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
@@ -33,6 +53,13 @@ function CyberwareTab() {
           <a onClick={navigateToWhatAreAugmentations}>
             what are augmentations?
           </a>
+          <a onClick={navigateToAttributeAugmentations}>
+            attribute augmentations
+          </a>
+          <a onClick={navigateToNeuralProcessors}>neural processors</a>
+          <a onClick={navigateToOperatingSystems}>operating systems</a>
+          <a onClick={navigateToAugmentationMerits}>augmentation merits</a>
+          <a onClick={navigateToWeaponAugmentations}>weapon augmentations</a>
         </div>
       )}
     </div>

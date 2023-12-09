@@ -9,8 +9,8 @@ function CyberwareDensityPage() {
       >
         <p className="setting-the-scene-title">what is cyberware density?</p>
         <p className="game-mechanics-text">
-          In <em> cyberpyre</em>, the impact that cyberware has on a character’s
-          autonomy and sense of self is measured via{" "}
+          In <em> cyberpyre</em>, the impact that installed cyberware has on a
+          character’s autonomy and sense of self is measured via{" "}
           <strong> Cyberware Density. </strong>
           Any given piece of cyberware that a character can install will have a
           level of Cyberware Density across a <strong>

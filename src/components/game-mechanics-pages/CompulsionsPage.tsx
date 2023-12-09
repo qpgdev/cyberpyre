@@ -1,5 +1,3 @@
-import "../../App.css";
-
 function CompulsionsPage() {
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
