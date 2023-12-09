@@ -52,7 +52,7 @@ function App() {
             <CyberwareTab></CyberwareTab>
             <StorytellerTab></StorytellerTab>
           </div>
-          <div className="dashboard">
+          <div className="dashboard" style={{overflow: 'auto'}}>
             <Routes>
               <Route path="/" element={<SettingTheScenePage />} />
               <Route path="/main" element={<MainPage />} />
