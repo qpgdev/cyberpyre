@@ -11,7 +11,7 @@ function GlitchDicePage() {
         </p>
         <p className="game-mechanics-text">
           Each time a character with cyberware compiles a dice pool (see
-          Vampire: the Masquerade: 5th Ed Corebook, p.___) which utilizes any of
+          Vampire: the Masquerade 5th Ed Corebook, p.___) which utilizes any of
           that cyberware, the dice pool must be augmented with{" "}
           <strong>Glitch Dice</strong> (usually blue or purple, but you may
           choose any color other than those you are using for Hunger dice or
@@ -21,12 +21,13 @@ function GlitchDicePage() {
           equal to half their character’s Cyberware Density, rounded up.
         </p>
         <p className="game-mechanics-text">
-          If a character rolls a critical success and one of the 10s lands on a
-          Glitch die, that is considered a <strong>Glitchy Critical</strong>.
-          The character still succeeds in their action, but they do so at a cost
-          - focused solely on achieving their goal, they may think themselves
-          transhuman (or subhuman) and lose any concern for collateral damage or
-          for the well-being of those around them. The character could begin to
+          If a character rolls a critical success (see Vampire: the Masquerade
+          5th Ed Corebook, p.___) and one of the 10s lands on a Glitch die, that
+          is considered a <strong>Glitchy Critical</strong>. The character still
+          succeeds in their action, but they do so at a cost - focused solely on
+          achieving their goal, they may think themselves transhuman (or
+          subhuman) and lose any concern for collateral damage or for the
+          well-being of those around them. The character could begin to
           disassociate, and watch their body perform actions they’re barely
           cognizant of making. Storytellers are encouraged to be creative here,
           but ultimately the message to your players is:

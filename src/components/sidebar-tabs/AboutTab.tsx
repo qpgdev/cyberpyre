@@ -18,6 +18,7 @@ function AboutTab() {
   useEffect(() => {
     if (location.pathname.startsWith("/about")) {
       setButtonStyling("intro-button-selected");
+      setIsOpen(true);
     } else {
       setButtonStyling("intro-button-alt");
     }

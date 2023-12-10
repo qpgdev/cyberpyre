@@ -18,6 +18,7 @@ function StorytellerTab() {
   useEffect(() => {
     if (location.pathname.startsWith("/storyteller-resources")) {
       setButtonStyling("intro-button-selected");
+      setIsOpen(true);
     } else {
       setButtonStyling("intro-button-alt");
     }

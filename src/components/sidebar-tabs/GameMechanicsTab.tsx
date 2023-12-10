@@ -6,6 +6,9 @@ function GameMechanicsTab() {
   const [buttonStyling, setButtonStyling] = useState("intro-button-alt");
   const navigate = useNavigate();
   const location = useLocation();
+  const linkStyle = {
+    cursor: "pointer",
+  };
 
   const navigateToCyberwareDensity = () => {
     navigate("/game-mechanics/cyberware-density");
@@ -34,6 +37,7 @@ function GameMechanicsTab() {
   useEffect(() => {
     if (location.pathname.startsWith("/game-mechanics")) {
       setButtonStyling("intro-button-selected");
+      setIsOpen(true);
     } else {
       setButtonStyling("intro-button-alt");
     }
@@ -46,13 +50,21 @@ function GameMechanicsTab() {
       </button>
       {isOpen && (
         <div className="dropdown-content">
-          <a onClick={navigateToCyberwareDensity}>cyberware density</a>
-          <a onClick={navigateToGlitchDice}>glitch dice</a>
-          <a onClick={navigateToCompulsions}>cybernetic compulsions</a>
-          <a onClick={navigateToInstallingRemoving}>
+          <a onClick={navigateToCyberwareDensity} style={linkStyle}>
+            cyberware density
+          </a>
+          <a onClick={navigateToGlitchDice} style={linkStyle}>
+            glitch dice
+          </a>
+          <a onClick={navigateToCompulsions} style={linkStyle}>
+            cybernetic compulsions
+          </a>
+          <a onClick={navigateToInstallingRemoving} style={linkStyle}>
             installing / removing cyberware
           </a>
-          <a onClick={navigateToCyberwareDamage}>cyberware damage</a>
+          <a onClick={navigateToCyberwareDamage} style={linkStyle}>
+            cyberware damage
+          </a>
         </div>
       )}
     </div>

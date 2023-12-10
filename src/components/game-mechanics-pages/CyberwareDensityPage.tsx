@@ -1,7 +1,19 @@
 import "../../App.css";
 import CyberwareDensityEffectsTable from "./cyberware-density-page-components/CyberwareDensityEffectsTable";
 
+import { useNavigate } from "react-router-dom";
+
 function CyberwareDensityPage() {
+  const navigate = useNavigate();
+
+  const navigateToMain = () => {
+    navigate("/");
+  };
+
+  const navigateToGlitchDice = () => {
+    navigate("/game-mechanics/glitch-dice");
+  };
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
@@ -72,6 +84,20 @@ function CyberwareDensityPage() {
           other vital organs that were previously replaced by cyberware.
         </p>
         <CyberwareDensityEffectsTable></CyberwareDensityEffectsTable>
+      </div>
+      <div className="navigation-buttons-div">
+      <button
+            className="intro-button-alt"
+            onClick={navigateToMain}
+          >
+            Back
+          </button>
+          <button
+            className="intro-button-alt"
+            onClick={navigateToGlitchDice}
+          >
+            Next
+          </button>
       </div>
     </div>
   );
