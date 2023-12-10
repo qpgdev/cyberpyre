@@ -4,6 +4,15 @@ function InstallingRemovingPage() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const navigateToCompulsions = () => {
+    navigate("/game-mechanics/compulsions");
+  };
+
+  const navigateToCyberwareDamage = () => {
+    navigate("/game-mechanics/cyberware-damage");
+  };
+
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
@@ -97,6 +106,20 @@ function InstallingRemovingPage() {
           installed, they immediately experience cyberpsychosis (or wassail, if
           a vampire) and are lost to Storyteller control.
         </p>
+      </div>
+      <div className="navigation-buttons-div">
+      <button
+            className="intro-button-alt"
+            onClick={navigateToCompulsions}
+          >
+            Back
+          </button>
+          <button
+            className="intro-button-alt"
+            onClick={navigateToCyberwareDamage}
+          >
+            Next
+          </button>
       </div>
     </div>
   );

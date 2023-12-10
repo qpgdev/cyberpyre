@@ -4,6 +4,14 @@ function CyberwareDamagePage() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const navigateToInstallingRemoving = () => {
+    navigate("/game-mechanics/installing-removing");
+  };
+
+  const navigateToWhatAreAugmentations = () => {
+    navigate("/cyberware-and-augmentations/what-are-augmentations");
+  };
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
@@ -153,6 +161,20 @@ function CyberwareDamagePage() {
             chips contained therein were still destroyed).
           </em>
         </p>
+      </div>
+      <div className="navigation-buttons-div">
+      <button
+            className="intro-button-alt"
+            onClick={navigateToInstallingRemoving}
+          >
+            Back
+          </button>
+          <button
+            className="intro-button-alt"
+            onClick={navigateToWhatAreAugmentations}
+          >
+            Next
+          </button>
       </div>
     </div>
   );
