@@ -75,8 +75,8 @@ function SettingTheScenePage() {
               part - we kind of don’t. Not anymore. The Masquerade is still on,
               but no one can tell if it’s a Kindred or a cyberpsycho tearin'
               someone’s throat out. Who has the time to keep track of every
-              murder nowadays? Mortals have short memories. <br></br> <br></br>
-              Rest easy, choom. We won.
+              murder nowadays? Mortals have short memories, choom.
+              Rest easy. We won.
             </p>
           </div>
           <img src={manGunNeon} style={{ height: "95vh" }}></img>

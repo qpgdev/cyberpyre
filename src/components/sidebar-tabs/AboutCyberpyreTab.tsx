@@ -30,6 +30,7 @@ function AboutCyberpyreTab() {
   useEffect(() => {
     if (location.pathname.startsWith("/about-cyberpyre")) {
       setButtonStyling("intro-button-selected");
+      setIsOpen(true);
     } else {
       setButtonStyling("intro-button-alt");
     }

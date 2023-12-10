@@ -4,6 +4,7 @@ import SupportTheProject from "../about-cyberpyre-pages/SupportTheProject";
 import KindredInTheFuture from "../about-cyberpyre-pages/KindredInTheFuture";
 
 function MainPage() {
+
   return (
     <div className="main-page">
       <WhatIsCyberpyrePage></WhatIsCyberpyrePage>
