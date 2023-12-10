@@ -1,4 +1,9 @@
+import { useLocation, useNavigate } from "react-router-dom";
+
 function CompulsionsPage() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
