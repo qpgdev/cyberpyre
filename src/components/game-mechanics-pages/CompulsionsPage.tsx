@@ -4,6 +4,14 @@ function CompulsionsPage() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const navigateToGlitchDice = () => {
+    navigate("/game-mechanics/glitch-dice");
+  };
+
+  const navigateToInstallingRemoving = () => {
+    navigate("/game-mechanics/installing-removing");
+  };
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
@@ -210,6 +218,20 @@ function CompulsionsPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="navigation-buttons-div">
+      <button
+            className="intro-button-alt"
+            onClick={navigateToGlitchDice}
+          >
+            Back
+          </button>
+          <button
+            className="intro-button-alt"
+            onClick={navigateToInstallingRemoving}
+          >
+            Next
+          </button>
       </div>
     </div>
   );

@@ -2,14 +2,16 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 function GameMechanicsTab() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [buttonStyling, setButtonStyling] = useState("intro-button-alt");
   const navigate = useNavigate();
   const location = useLocation();
-  const linkStyle = {
-    cursor: "pointer",
-  };
 
+  const [isOpen, setIsOpen] = useState(false);
+  
+  // Set styling state
+  const [buttonStyling, setButtonStyling] = useState("intro-button-alt");
+  const [linkStyle, setLinkStyle] = useState({cursor: "pointer", color: "default"});
+
+  // Navigation
   const navigateToCyberwareDensity = () => {
     navigate("/game-mechanics/cyberware-density");
   };
@@ -38,6 +40,7 @@ function GameMechanicsTab() {
     if (location.pathname.startsWith("/game-mechanics")) {
       setButtonStyling("intro-button-selected");
       setIsOpen(true);
+
     } else {
       setButtonStyling("intro-button-alt");
     }

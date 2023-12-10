@@ -4,6 +4,14 @@ function GlitchDicePage() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const navigateToCyberwareDensity = () => {
+    navigate("/game-mechanics/cyberware-density");
+  };
+
+  const navigateToCompulsions = () => {
+    navigate("/game-mechanics/compulsions");
+  };
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
@@ -81,6 +89,20 @@ function GlitchDicePage() {
             Her dice pool will consist of two Glitch dice and two Hunger dice.
           </em>
         </p>
+      </div>
+      <div className="navigation-buttons-div">
+      <button
+            className="intro-button-alt"
+            onClick={navigateToCyberwareDensity}
+          >
+            Back
+          </button>
+          <button
+            className="intro-button-alt"
+            onClick={navigateToCompulsions}
+          >
+            Next
+          </button>
       </div>
     </div>
   );
