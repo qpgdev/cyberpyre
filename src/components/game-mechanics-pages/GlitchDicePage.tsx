@@ -1,6 +1,9 @@
-import "../../App.css";
+import { useLocation, useNavigate } from "react-router-dom";
 
 function GlitchDicePage() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
       <div
