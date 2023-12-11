@@ -35,7 +35,7 @@ function KindredInTheFuture() {
             No. The Masquerade
             <em>
               {" "}
-              (see Vampire: the Masquerade: 5th Edition Corebook, p. 51),
+              (see Vampire: the Masquerade 5th Edition Corebook, p. 51),
             </em>{" "}
             an ancient tradition which serves to hide the existence of vampires
             from the mortal world, is still fully enforced by the Camarilla.
