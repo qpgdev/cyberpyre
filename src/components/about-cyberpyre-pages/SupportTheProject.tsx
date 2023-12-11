@@ -75,13 +75,13 @@ function SupportTheProject() {
           <p className="game-mechanics-text">
             You may also consider donating on
             <a
-              href="https://github.com/qpgdev/cyberpyre"
+              href="https://more.ko-fi.com/patreon-alternative?ref=vs"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#bd00ff" }}
             >
               {" "}
-              Patreon.
+              Ko-Fi.
             </a>
             &nbsp; Any donations recieved will be reinvested into the project,
             either to keep the site up and running or to commission artwork from
@@ -92,12 +92,22 @@ function SupportTheProject() {
             project. While a project like <em>cyberpyre </em> is certainly
             hungry for art in order to deliver the right vibes, it's important
             to me that any donations to this project go towards human artists,
-            who have real mouths to feed. Consider commissioning an artist you
-            enjoy and donating their work to the site!
+            who have real mouths to feed. Instead, consider commissioning an
+            artist you enjoy and donating their work to the site!
           </p>
           <p className="game-mechanics-text">
             I sincerely hope that you and your friends enjoy playing what I've
-            put together. Have fun, and stay thirsty!
+            put together. If you want to connect, feel free to join the
+            <a
+              href="https://more.ko-fi.com/patreon-alternative?ref=vs"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#bd00ff" }}
+            >
+              {" "}
+              Discord.{" "}
+            </a>
+            Have fun, and stay thirsty!
           </p>
           <button
             className="intro-button-alt"
