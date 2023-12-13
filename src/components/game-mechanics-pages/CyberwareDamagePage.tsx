@@ -163,18 +163,18 @@ function CyberwareDamagePage() {
         </p>
       </div>
       <div className="navigation-buttons-div">
-      <button
-            className="intro-button-alt"
-            onClick={navigateToInstallingRemoving}
-          >
-            Back
-          </button>
-          <button
-            className="intro-button-alt"
-            onClick={navigateToWhatAreAugmentations}
-          >
-            Next
-          </button>
+        <button
+          className="intro-button-alt"
+          onClick={navigateToInstallingRemoving}
+        >
+          Back
+        </button>
+        <button
+          className="intro-button-alt"
+          onClick={navigateToWhatAreAugmentations}
+        >
+          Next
+        </button>
       </div>
     </div>
   );
