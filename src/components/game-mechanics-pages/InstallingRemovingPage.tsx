@@ -1,5 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
+import BulletedUnorderedList from "../lib/BulletedUnorderedList";
+
 function InstallingRemovingPage() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -12,6 +14,11 @@ function InstallingRemovingPage() {
     navigate("/game-mechanics/cyberware-damage");
   };
 
+  const listItems = [
+    "Intelligence / Wits / Resolve + Medicine;",
+    "Intelligence / Wits / Resolve + Technology;",
+    "A Ritual roll if installing cyberware on a vampire (see “Seal the Brand,” Vampire the Masquerade: Player’s Guide; p.99).",
+  ];
 
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
@@ -39,21 +46,9 @@ function InstallingRemovingPage() {
           on another character, it requires the following tests at a difficulty
           equal to the Cyberware Density of the installed cyberware: <br></br>
         </p>
-        <p
-          className="game-mechanics-text"
-          style={{
-            padding: "10px",
-            marginTop: "50px",
-            marginBottom: "50px",
-            marginLeft: "50px",
-            marginRight: "50px",
-          }}
-        >
-          &bull; Intelligence / Wits / Resolve + Medicine;<br></br>
-          &bull; Intelligence / Wits / Resolve + Technology;<br></br>
-          &bull; A Ritual roll if installing cyberware on a vampire (see “Seal
-          the Brand,” Vampire the Masquerade: Player’s Guide; p.99).
-        </p>
+
+        <BulletedUnorderedList arrOfStrings={listItems}></BulletedUnorderedList>
+        
         <p className="game-mechanics-text">
           If a character is attempting to install the cyberware on themselves,
           the above tests should be performed at a difficulty of 2 plus the
@@ -108,18 +103,15 @@ function InstallingRemovingPage() {
         </p>
       </div>
       <div className="navigation-buttons-div">
-      <button
-            className="intro-button-alt"
-            onClick={navigateToCompulsions}
-          >
-            Back
-          </button>
-          <button
-            className="intro-button-alt"
-            onClick={navigateToCyberwareDamage}
-          >
-            Next
-          </button>
+        <button className="intro-button-alt" onClick={navigateToCompulsions}>
+          Back
+        </button>
+        <button
+          className="intro-button-alt"
+          onClick={navigateToCyberwareDamage}
+        >
+          Next
+        </button>
       </div>
     </div>
   );
