@@ -1,5 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
+import BulletedUnorderedList from "../lib/BulletedUnorderedList";
+
 function CyberwareDamagePage() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -11,6 +13,15 @@ function CyberwareDamagePage() {
   const navigateToWhatAreAugmentations = () => {
     navigate("/cyberware-and-augmentations/what-are-augmentations");
   };
+
+  const listItems = [
+    "Each point of Cyberware Damage to Attribute Augmentations eliminates any bonuses provided by the Cyberware Density of the damaged cyberware on a one-for-one basis; ",
+    "Each point of Cyberware Damage to a neural processor reduces the total number of chip slots as well as destroying the chips in the affected slots;",
+    "Each point of Cyberware Damage to cyberware which grants Cyber or Discipline powers reduces the level of the Cyber power or Discipline by one dot and disables access to a power granted by that cyberware, beginning with the highest level Discipline power granted by that cyberware and descending from there; ",
+    "Cyberware Damage to Weapon cyberware disables the weapon once damage equal to the Cyberware Density level of the weapon has been dealt to the cyberware;",
+    "Each point of Cyberware Damage to Armor-specific cyberware reduces the character's Armor by 2 dots;",
+    "Each point of Cyberware Damage to Merit-specific or experimental cyberware reduces the dots provided by that cyberware by 1, and eliminates that Merit once damage equal to the Cyberware Density level of the Merit has been dealt to the cyberware.",
+  ];
 
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
@@ -34,37 +45,9 @@ function CyberwareDamagePage() {
           The effects of the Cyberware Damage varies depending on the cyberware:{" "}
           <br></br>
         </p>
-        <p
-          className="game-mechanics-text"
-          style={{
-            padding: "10px",
-            marginTop: "20px",
-            marginBottom: "20px",
-            marginLeft: "50px",
-            marginRight: "50px",
-          }}
-        >
-          &bull; Each point of Cyberware Damage to Attribute Augmentations
-          eliminates any bonuses provided by the Cyberware Density of the
-          damaged cyberware on a one-for-one basis; <br></br>
-          &bull; Each point of Cyberware Damage to a neural processor reduces
-          the total number of chip slots as well as destroying the chips in the
-          affected slots;<br></br>
-          &bull; Each point of Cyberware Damage to cyberware which grants Cyber
-          or Discipline powers reduces the level of the Cyber power or
-          Discipline by one dot and disables access to a power granted by that
-          cyberware, beginning with the highest level Discipline power granted
-          by that cyberware and descending from there; <br></br>
-          &bull; Cyberware Damage to Weapon cyberware disables the weapon once
-          damage equal to the Cyberware Density level of the weapon has been
-          dealt to the cyberware;<br></br>
-          &bull; Each point of Cyberware Damage to Armor-specific cyberware
-          reduces the character's Armor by 2 dots;<br></br>
-          &bull; Each point of Cyberware Damage to Merit-specific or
-          experimental cyberware reduces the dots provided by that cyberware by
-          1, and eliminates that Merit once damage equal to the Cyberware
-          Density level of the Merit has been dealt to the cyberware.<br></br>
-        </p>
+
+        <BulletedUnorderedList arrOfStrings={listItems}></BulletedUnorderedList>
+
         <p className="game-mechanics-text">
           A piece of cyberware cannot receive more damage than its Cyberware
           Density level without being fully destroyed.

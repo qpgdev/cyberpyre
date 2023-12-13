@@ -2,8 +2,6 @@ import cyberSalubri from "../../assets/salubri-cyberpunk.jpg";
 
 import BulletedUnorderedList from "../lib/BulletedUnorderedList";
 
-// /home/qpgdev/dev/side-projects/cyberpyre/src/assets/salubri-cyberpunk.jpg
-
 function WhatAreAugmentations() {
   const firstListItems = [
     "Attribute Augmentations that increase one of a character's Attributes;",

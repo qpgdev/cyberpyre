@@ -10,7 +10,7 @@ function SupportTheProject() {
   };
 
   return (
-    <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
+    <div className="support-the-project" style={{ maxHeight: "95vh" }}>
       <div style={{ display: "flex" }}>
         <div
           style={{
@@ -116,7 +116,7 @@ function SupportTheProject() {
             Get started
           </button>
         </div>
-        <img src={neonHallway} style={{ height: "95vh" }}></img>
+        <img src={neonHallway}></img>
       </div>
     </div>
   );
