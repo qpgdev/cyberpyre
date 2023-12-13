@@ -1,10 +1,9 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import BulletedUnorderedList from "../lib/BulletedUnorderedList";
 
 function CyberwareDamagePage() {
   const navigate = useNavigate();
-  const location = useLocation();
 
   const navigateToInstallingRemoving = () => {
     navigate("/game-mechanics/installing-removing");
