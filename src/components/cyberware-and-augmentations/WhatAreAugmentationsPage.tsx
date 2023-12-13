@@ -1,5 +1,4 @@
 import cyberSalubri from "../../assets/salubri-cyberpunk.jpg";
-import ExperimentalCyberwareTable from "./what-are-augmentations-page-components/ExperimentalCyberwareTable";
 
 import BulletedUnorderedList from "../lib/BulletedUnorderedList";
 
