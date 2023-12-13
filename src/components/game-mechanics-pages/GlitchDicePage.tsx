@@ -1,8 +1,8 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import ExampleBox from "../lib/ExampleBox";
 
 function GlitchDicePage() {
   const navigate = useNavigate();
-  const location = useLocation();
 
   const navigateToCyberwareDensity = () => {
     navigate("/game-mechanics/cyberware-density");
@@ -11,6 +11,9 @@ function GlitchDicePage() {
   const navigateToCompulsions = () => {
     navigate("/game-mechanics/compulsions");
   };
+
+  const exampleContent =
+    "Isaac, who is making a Strength + Brawl roll which benefits from a Strength bonus from his cybernetic arm, will need to swap Glitch Dice into his dice pool. Isaac is a vampire with one Hunger and a Cyberware Density of seven. He is compiling a dice pool that consists of six dice in total. The dice pool will consist of four blue Glitch dice and two normal dice. Claire, on the other hand, is making a Discipline roll using a Discipline power obtained through cyberware. Claire is a vampire with five Hunger and a Cyberware Density of four, and her dice pool consists of four dice in total. Her dice pool will consist of two Glitch dice and two Hunger dice.";
 
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
@@ -61,48 +64,21 @@ function GlitchDicePage() {
           the Hunger dice to be added, then swap the remaining Hunger dice with
           normal dice as usual. The Storyteller should be sure to describe a
           Glitchy Critical as if the vampire also rolled a Messy Critical (see
-          Vampire: the Masquerade: 5th Ed Corebook, p.___).
+          Vampire: the Masquerade 5th Ed Corebook, p.___).
         </p>
 
-        <p
-          className="example-text"
-          style={{
-            border: "2px solid",
-            padding: "10px",
-            marginTop: "50px",
-            marginBottom: "50px",
-            marginLeft: "50px",
-            marginRight: "50px",
-          }}
-        >
-          <strong> Example: </strong>
-          <em>
-            Isaac, who is making a Strength + Brawl roll which benefits from a
-            Strength bonus from his cybernetic arm, will need to swap Glitch
-            Dice into his dice pool. Isaac is a vampire with one Hunger and a
-            Cyberware Density of seven. He is compiling a dice pool that
-            consists of six dice in total. The dice pool will consist of four
-            blue Glitch dice and two normal dice. Claire, on the other hand, is
-            making a Discipline roll using a Discipline power obtained through
-            cyberware. Claire is a vampire with five Hunger and a Cyberware
-            Density of four, and her dice pool consists of four dice in total.
-            Her dice pool will consist of two Glitch dice and two Hunger dice.
-          </em>
-        </p>
+        <ExampleBox str={exampleContent}></ExampleBox>
       </div>
       <div className="navigation-buttons-div">
-      <button
-            className="intro-button-alt"
-            onClick={navigateToCyberwareDensity}
-          >
-            Back
-          </button>
-          <button
-            className="intro-button-alt"
-            onClick={navigateToCompulsions}
-          >
-            Next
-          </button>
+        <button
+          className="intro-button-alt"
+          onClick={navigateToCyberwareDensity}
+        >
+          Back
+        </button>
+        <button className="intro-button-alt" onClick={navigateToCompulsions}>
+          Next
+        </button>
       </div>
     </div>
   );
