@@ -1,10 +1,9 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import BulletedUnorderedList from "../lib/BulletedUnorderedList";
 
 function InstallingRemovingPage() {
   const navigate = useNavigate();
-  const location = useLocation();
 
   const navigateToCompulsions = () => {
     navigate("/game-mechanics/compulsions");
@@ -48,7 +47,7 @@ function InstallingRemovingPage() {
         </p>
 
         <BulletedUnorderedList arrOfStrings={listItems}></BulletedUnorderedList>
-        
+
         <p className="game-mechanics-text">
           If a character is attempting to install the cyberware on themselves,
           the above tests should be performed at a difficulty of 2 plus the

@@ -1,4 +1,5 @@
 import "../../App.css";
+import ExampleBox from "../lib/ExampleBox";
 import CyberwareDensityEffectsTable from "./cyberware-density-page-components/CyberwareDensityEffectsTable";
 
 import { useNavigate } from "react-router-dom";
@@ -13,6 +14,9 @@ function CyberwareDensityPage() {
   const navigateToGlitchDice = () => {
     navigate("/game-mechanics/glitch-dice");
   };
+
+  const exampleContent =
+    "Sonya’s character does not currently have any cyberware installed, meaning that her character has a Cyberware Density level of 0. Sonya decides to install a monowire on her character - a deadly piece of cybernetic weaponry with a Cyberware Density of 1. After Sonya has the monowire installed, her character now has a Cyberware Density of 1.";
 
   return (
     <div className="scrollable-div" style={{ maxHeight: "95vh" }}>
@@ -35,27 +39,9 @@ function CyberwareDensityPage() {
           their total Cyberware Density level increases by the Cyberware Density
           of that modification.
         </p>
-        <p
-          className="example-text"
-          style={{
-            border: "2px solid",
-            padding: "10px",
-            marginTop: "50px",
-            marginBottom: "50px",
-            marginLeft: "50px",
-            marginRight: "50px",
-          }}
-        >
-          <strong> Example: </strong>
-          <em>
-            Sonya’s character does not currently have any cyberware installed,
-            meaning that her character has a Cyberware Density level of 0. Sonya
-            decides to install a monowire on her character - a deadly piece of
-            cybernetic weaponry with a Cyberware Density of 1. After Sonya has
-            the monowire installed, her character now has a Cyberware Density of
-            1.
-          </em>
-        </p>
+
+        <ExampleBox str={exampleContent}></ExampleBox>
+
         <p className="game-mechanics-text">
           Characters lose one level of maximum Humanity per level of Cyberware
           Density possessed by the cyberware they have installed. If a character
@@ -86,18 +72,12 @@ function CyberwareDensityPage() {
         <CyberwareDensityEffectsTable></CyberwareDensityEffectsTable>
       </div>
       <div className="navigation-buttons-div">
-      <button
-            className="intro-button-alt"
-            onClick={navigateToMain}
-          >
-            Back
-          </button>
-          <button
-            className="intro-button-alt"
-            onClick={navigateToGlitchDice}
-          >
-            Next
-          </button>
+        <button className="intro-button-alt" onClick={navigateToMain}>
+          Back
+        </button>
+        <button className="intro-button-alt" onClick={navigateToGlitchDice}>
+          Next
+        </button>
       </div>
     </div>
   );
