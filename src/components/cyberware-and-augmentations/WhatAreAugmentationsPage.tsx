@@ -1,9 +1,27 @@
 import cyberSalubri from "../../assets/salubri-cyberpunk.jpg";
 import ExperimentalCyberwareTable from "./what-are-augmentations-page-components/ExperimentalCyberwareTable";
 
+import BulletedUnorderedList from "../lib/BulletedUnorderedList";
+
 // /home/qpgdev/dev/side-projects/cyberpyre/src/assets/salubri-cyberpunk.jpg
 
 function WhatAreAugmentations() {
+  const firstListItems = [
+    "Attribute Augmentations that increase one of a character's Attributes;",
+    "Neural Processors that allow for bonuses to Skills;",
+    "Operating Systems which provide unique Powers;",
+    "Augmentation Merits that allow for specialized abilities;",
+    "Weapon Augmentations such as spring-loaded arm blades, thermal garrotes, finger guns, and more.",
+  ];
+
+  const secondListItems = [
+    "Weak or niche experimental cyberware should begin with a Cyberware Density of 1;",
+    "Unremarkable or common experimental cyberware should begin with a Cyberware Density of 2;",
+    "Reasonably strong experimental cyberware should begin with a Cyberware Density of 3;",
+    "Very strong experimental cyberware should begin with a Cyberware Density of 4;",
+    "Powerful or story-altering experimental cyberware should begin with a Cyberware Density of 5.",
+  ];
+
   return (
     <div className="container">
       <div className="scrollable-div">
@@ -14,31 +32,11 @@ function WhatAreAugmentations() {
             represented by <strong>Augmentations</strong>. There are many forms
             of Augmentations, including:
           </p>
-          <div style={{ display: "flex" }}>
-            <p
-              className="game-mechanics-text"
-              style={{
-                padding: "10px",
-                marginTop: "0px",
-                marginBottom: "0px",
-                marginLeft: "20px",
-                marginRight: "0px",
-                textAlign: "left",
-              }}
-            >
-              &bull; <strong>Attribute Augmentations</strong> that increase one
-              of a character's Attributes; <br></br>
-              &bull; <strong>Neural Processors</strong> that allow for bonuses
-              to Skills; <br></br>
-              &bull; <strong>Operating Systems</strong> which provide unique
-              Powers; <br></br>
-              &bull; <strong>Augmentation Merits</strong> that allow for
-              specialized abilities; <br></br>
-              &bull; <strong>Weapon Augmentations </strong> such as
-              spring-loaded arm blades, thermal garrotes, "finger" guns, and
-              more. <br></br>
-            </p>
-          </div>
+
+          <BulletedUnorderedList
+            arrOfStrings={firstListItems}
+          ></BulletedUnorderedList>
+
           <p className="game-mechanics-text">
             Storytellers are encouraged to experiment with homebrew
             Augmentations which mimic existing or create new Disciplines,
@@ -49,45 +47,14 @@ function WhatAreAugmentations() {
             the game. After all, the full effects of “experimental” cyberware
             are hard to predict for both ripperdocs and Storytellers alike.
           </p>
-          <ExperimentalCyberwareTable></ExperimentalCyberwareTable>
+          <BulletedUnorderedList
+            arrOfStrings={secondListItems}
+          ></BulletedUnorderedList>
         </div>
       </div>
       <img className="setting-the-scene-img" src={cyberSalubri}></img>
     </div>
   );
 }
-/*
-        <div className='scrollable-div' style={{maxHeight: '95vh'}}>
-            <div style ={{ marginTop: '50px', marginLeft: '200px'}}>
-                <p className="setting-the-scene-title">
-                    what are augmentations?
-                </p>
-            <div style={{display:'flex'}}>
-                <div style={{margin: '40px', marginTop: '0px'}}>
-                    <p className='game-mechanics-text' style={{marginTop: '0px', textAlign: 'left'}}>
-                        In cyberpyre, installed cyberware is typically mechanically represented by <strong>Augmentations</strong>.
-                        There are many forms of Augmentations, including:
-                    </p>
-                    <div style={{display: 'flex'}}>
-                        <p className ='game-mechanics-text' style={{padding: '10px', marginTop: '0px', marginBottom: '0px', marginLeft: '20px', marginRight: '0px', textAlign: 'left'}}>
-                            &bull; <strong>Attribute Augmentations</strong> that increase one of a character's Attributes; <br></br>
-                            &bull; <strong>Neural Processors</strong> that allow for bonuses to Skills; <br></br>
-                            &bull; <strong>Operating Systems</strong> which provide unique Powers; <br></br>
-                            &bull; <strong>Augmentation Merits</strong> that allow for specialized abilities; <br></br>
-                            &bull; <strong>Weapon</strong> Augmentations. <br></br>
-                        </p>
-                    </div>
-                    <p className='game-mechanics-text'>
-                        Storytellers are encouraged to experiment with homebrew Augmentations which mimic existing or create new Disciplines, Merits, or Advantages. 
-                        The Cyberware Density will vary depending on the strength of the Merit itself in the chronicle, 
-                        and it is left to Storyteller discretion whether the Cyberware Density of a custom piece of equipment needs to be increased at all during the course of the game. 
-                        After all, the full effects of “experimental” cyberware are hard to predict for both ripperdocs and Storytellers alike.
-                    </p>
-                    <ExperimentalCyberwareTable></ExperimentalCyberwareTable>
-                </div>
-                <img src={cyberSalubri} style={{ height: '95vh'}}></img>
-            </div>
-        </div>
-    </div>
-*/
+
 export default WhatAreAugmentations;
