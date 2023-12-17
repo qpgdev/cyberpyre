@@ -17,9 +17,8 @@ const BulletedUnorderedList: React.FC<BulletedUnorderedListProps> = ({
         listStyleType: "disc",
         listStylePosition: "outside",
         textAlign: "left",
-        padding: "10px",
-        marginTop: "20px",
-        marginBottom: "20px",
+        marginTop: "10px",
+        marginBottom: "10px",
         marginLeft: "50px",
         marginRight: "50px",
       }}
