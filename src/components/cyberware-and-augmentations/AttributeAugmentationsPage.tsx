@@ -27,7 +27,7 @@ const AttributeAugmentationsPage = () => {
   const augCom = ["Composure + 1", "Willpower + 1", "Cyberware Density + 1"];
   const augRes = ["Resolve + 1", "Willpower + 1", "Cyberware Density + 1"];
 
-  const testData: React.ReactNode[][] = [
+  const data: React.ReactNode[][] = [
     [
       <BulletedUnorderedList arrOfStrings={augStr}></BulletedUnorderedList>,
       <BulletedUnorderedList arrOfStrings={augCha}></BulletedUnorderedList>,
@@ -60,21 +60,25 @@ const AttributeAugmentationsPage = () => {
           Impossibly nimble cybernetic fingers represent your bonus to Dexterity
           as you attempt to pick a lock. A literal silver tongue augments your
           Charisma, and an audiovisual enhancement improves your already attuned
-          senses, raising your dots in Wits. Attribute Augmentations are really
-          one of the best ways to let a player's creativity shine. By design,
-          Augmentations that increase Attributes are intentionally left
-          nondescript in order to encourage player and Storyteller creativity.
-          Is the Augmentation to your Strength a powerful cybernetic arm, a pair
-          of solid steel hydraulic legs, or something else entirely? The form
-          that these Augmentations take within your character’s story is
-          completely up to the player and the Storyteller.
+          senses, raising your dots in Wits. This... <em>this </em> is what
+          <em> cyberpyre </em> is about.
+        </p>
+        <p style={{ textAlign: "justify" }}>
+          Attribute Augmentations are really one of the best ways to let a
+          player's creativity shine. By design, Augmentations that increase
+          Attributes are intentionally left nondescript in order to encourage
+          player and Storyteller creativity. Is the Augmentation to your
+          Strength a powerful cybernetic arm, a pair of solid steel hydraulic
+          legs, or something else entirely? The form that these Augmentations
+          take within your character’s story is completely up to the player and
+          the Storyteller.
         </p>
         <p style={{ textAlign: "justify" }}>
           The rules for Attribute Augmentations are as follows:
         </p>
 
         <BulletedUnorderedList arrOfStrings={listItems}></BulletedUnorderedList>
-        <ArrayToTable headers={augHeaders} data={testData}></ArrayToTable>
+        <ArrayToTable headers={augHeaders} data={data}></ArrayToTable>
         <ExampleBox str={exampleContent}></ExampleBox>
       </div>
     </div>

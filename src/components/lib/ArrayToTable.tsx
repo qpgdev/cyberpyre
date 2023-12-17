@@ -57,8 +57,8 @@ const cellStyle: React.CSSProperties = {
   padding: "10px",
   marginTop: "20px",
   marginBottom: "20px",
-  marginLeft: "50px",
-  marginRight: "50px",
+  marginLeft: "10px",
+  marginRight: "10px",
   textAlign: "left",
 };
 
