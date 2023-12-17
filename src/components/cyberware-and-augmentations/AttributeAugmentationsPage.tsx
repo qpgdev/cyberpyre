@@ -1,5 +1,6 @@
 import BulletedUnorderedList from "../lib/BulletedUnorderedList";
 import ExampleBox from "../lib/ExampleBox";
+import ArrayToTable from "../lib/ArrayToTable";
 
 const AttributeAugmentationsPage = () => {
   const listItems = [
@@ -11,8 +12,41 @@ const AttributeAugmentationsPage = () => {
     "If a player wishes to further increase an Attribute that already has an Augmentation, the player may choose if they are getting further upgrades to the same piece of cyberware as the former Augmentation or if the increase to their Attribute is from a new piece of cyberware.  In either case, the character’s Cyberware Density is increased as normal.",
   ];
 
+  const augHeaders = [
+    "Physical Augmentations",
+    "Social Augmentations",
+    "Mental Augmentations",
+  ];
+  const augStr = ["Strength + 1", "Armor + 1", "Cyberware Density + 1"];
+  const augCha = ["Charisma + 1", "Willpower + 1", "Cyberware Density + 1"];
+  const augInt = ["Intelligence + 1", "Willpower + 1", "Cyberware Density + 1"];
+  const augDex = ["Dexterity + 1", "Armor + 1", "Cyberware Density + 1"];
+  const augMan = ["Manipulation + 1", "Willpower + 1", "Cyberware Density + 1"];
+  const augWit = ["Wits + 1", "Willpower + 1", "Cyberware Density + 1"];
+  const augSta = ["Stamina + 1", "Armor + 1", "Cyberware Density + 1"];
+  const augCom = ["Composure + 1", "Willpower + 1", "Cyberware Density + 1"];
+  const augRes = ["Resolve + 1", "Willpower + 1", "Cyberware Density + 1"];
+
+  const testData: React.ReactNode[][] = [
+    [
+      <BulletedUnorderedList arrOfStrings={augStr}></BulletedUnorderedList>,
+      <BulletedUnorderedList arrOfStrings={augCha}></BulletedUnorderedList>,
+      <BulletedUnorderedList arrOfStrings={augInt}></BulletedUnorderedList>,
+    ],
+    [
+      <BulletedUnorderedList arrOfStrings={augDex}></BulletedUnorderedList>,
+      <BulletedUnorderedList arrOfStrings={augMan}></BulletedUnorderedList>,
+      <BulletedUnorderedList arrOfStrings={augWit}></BulletedUnorderedList>,
+    ],
+    [
+      <BulletedUnorderedList arrOfStrings={augSta}></BulletedUnorderedList>,
+      <BulletedUnorderedList arrOfStrings={augCom}></BulletedUnorderedList>,
+      <BulletedUnorderedList arrOfStrings={augRes}></BulletedUnorderedList>,
+    ],
+  ];
+
   const exampleContent =
-    "Billy’s character has a Strength Augmentation, represented by a mechanical arm, as his sole piece of cyberware.  His character’s Cyberware Density is currently 1. He decides to make two additional Augmentations to his character, installing a Dexterity Augmentation as well as an additional Strength Augmentation.  After talking to his Storyteller, he comes to the decision that the Dexterity Augmentation will be represented by a synaptic accelerator installed in his character’s nervous system, and that the additional Strength Augmentation will simply be represented as a further upgrade to his mechanical arm.   His character’s total Cyberware Density is now 3.";
+    "Billy’s character has a Strength Augmentation, represented by a mechanical arm, as his sole piece of cyberware.  His character’s Cyberware Density is currently 1. He decides to make two additional Augmentations to his character, installing a Dexterity Augmentation as well as an additional Strength Augmentation.  After talking to his Storyteller, he comes to the decision that the Dexterity Augmentation will be represented by a synaptic accelerator installed in his character’s nervous system, and that the additional Strength Augmentation will simply be represented as a hydraulic upgrade to his mechanical arm.   His character’s total Cyberware Density is now 3.";
 
   return (
     <div className="attribute-augmentations-page">
@@ -40,6 +74,7 @@ const AttributeAugmentationsPage = () => {
         </p>
 
         <BulletedUnorderedList arrOfStrings={listItems}></BulletedUnorderedList>
+        <ArrayToTable headers={augHeaders} data={testData}></ArrayToTable>
         <ExampleBox str={exampleContent}></ExampleBox>
       </div>
     </div>
