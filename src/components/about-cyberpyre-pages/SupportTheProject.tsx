@@ -26,13 +26,13 @@ function SupportTheProject() {
           >
             Thanks for stopping by!
           </p>
-          <p className="game-mechanics-text">
+          <p className="primary-text">
             <em>cyberpyre</em> is a one-person passion project. If you'd like to
             contribute, consider donating your time or talents with:<br></br>
           </p>
           <div style={{ display: "flex" }}>
             <p
-              className="game-mechanics-text"
+              className="primary-text"
               style={{
                 padding: "10px",
                 marginTop: "0px",
@@ -51,14 +51,14 @@ function SupportTheProject() {
               supplement.
             </p>
           </div>
-          <p className="game-mechanics-text">
+          <p className="primary-text">
             Email submissions to <em>qpgdevelopment@gmail.com</em>. Make sure to
             include your name or an alias with the submission, and your express
             consent for the emailed material to be used in the project. If the
             contribution is used for the project, I will add your name or alias
             to the <strong> contributors </strong> page.
           </p>
-          <p className="game-mechanics-text">
+          <p className="primary-text">
             <em>cyberpyre</em> is open source, which means that all of the
             source code used for the project is publicly available for you to
             view and use. You can find the source code on
@@ -72,7 +72,7 @@ function SupportTheProject() {
               GitHub.
             </a>
           </p>
-          <p className="game-mechanics-text">
+          <p className="primary-text">
             You may also consider donating on
             <a
               href="https://more.ko-fi.com/patreon-alternative?ref=vs"
@@ -87,15 +87,15 @@ function SupportTheProject() {
             either to keep the site up and running or to commission artwork from
             the community.
           </p>
-          <p className="game-mechanics-text">
-            Please do not attempt to donate AI generated artwork for the
+          <p className="primary-text">
+            Please do not attempt to donate AI generated artwork to the
             project. While a project like <em>cyberpyre </em> is certainly
             hungry for art in order to deliver the right vibes, it's important
             to me that any donations to this project go towards human artists,
             who have real mouths to feed. Instead, consider commissioning an
             artist you enjoy and donating their work to the site!
           </p>
-          <p className="game-mechanics-text">
+          <p className="primary-text">
             I sincerely hope that you and your friends enjoy playing what I've
             put together. If you want to connect, feel free to join the
             <a

@@ -20,7 +20,7 @@ function WhatIsCyberpyrePage() {
             >
               Welcome to Bite City.
             </p>
-            <p className="game-mechanics-text">
+            <p className="primary-text">
               The year is 2100. The blaze of the Second Inquisition, launched
               against Kindred almost a century ago, is now nothing but long-cold
               ash. The Camarilla’s last-ditch decision to embrace technology in
@@ -32,7 +32,7 @@ function WhatIsCyberpyrePage() {
               hours a week still doesn’t bring in enough credits to afford a
               studio apartment. So what now?
             </p>
-            <p className="game-mechanics-text">
+            <p className="primary-text">
               Kindred stalk the neon streets with all of the supernatural tools
               they perviously had at their disposal, and then some. Titanium
               bones, SynthInsight optics, retractable fangs that siphon blood
@@ -42,7 +42,7 @@ function WhatIsCyberpyrePage() {
               gotten pretty creative with cyberware on their own. It's harder to
               puncture the flesh when someone has subdermal armor implants...
             </p>
-            <p className="game-mechanics-text">
+            <p className="primary-text">
               <em>cyberpyre</em> is a unofficial supplementary ruleset for
               <em>Vampire: The Masquerade 5th Edition, </em> a tabletop
               role-playing game which is sometimes colloquially referred to by

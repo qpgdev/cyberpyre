@@ -56,14 +56,14 @@ const AttributeAugmentationsPage = () => {
       >
         <p className="setting-the-scene-title"> attribute augmentations </p>
 
-        <p style={{ textAlign: "justify" }}>
+        <p className="primary-text">
           Impossibly nimble cybernetic fingers represent your bonus to Dexterity
           as you attempt to pick a lock. A literal silver tongue augments your
           Charisma, and an audiovisual enhancement improves your already attuned
           senses, raising your dots in Wits. This... <em>this </em> is what
           <em> cyberpyre </em> is about.
         </p>
-        <p style={{ textAlign: "justify" }}>
+        <p className="primary-text">
           Attribute Augmentations are really one of the best ways to let a
           player's creativity shine. By design, Augmentations that increase
           Attributes are intentionally left nondescript in order to encourage
@@ -73,7 +73,7 @@ const AttributeAugmentationsPage = () => {
           take within your character’s story is completely up to the player and
           the Storyteller.
         </p>
-        <p style={{ textAlign: "justify" }}>
+        <p className="primary-text">
           The rules for Attribute Augmentations are as follows:
         </p>
 

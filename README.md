@@ -1,5 +1,4 @@
 # What Is Cyberpyre?
-
 <em>cyberpyre</em> is an unofficial supplement for Vampire: the Masquerade - 5th Edition, a tabletop role-playing game 
 which is sometimes colloquially referred to by players as <em>V5</em>.  If you are interested in this supplement, I 
 would recommend finding a copy of the V5 Corebook, and potentially the <em> V5 Player’s Guide. </em>  While references to 
@@ -16,24 +15,19 @@ source material, references to the official books will be provided as necessary.
 &bull; Any other contributions you feel would benefit the supplement.
 Email submissions to qpgdevelopment@gmail.com and make sure to include your name or a tag with the submission - if the contribution is used, I will add your name to the <strong> contributors </strong> page.
 
-## Vite Production Linting
+## Known list of bugs
+- Being on a particular page should highlight the relevant item in the tab's dropdown.
+- Scrolling on the sidebar component moves the screen a bit.
 
-If you are developing a production application, Vite recommends updating the configuration to enable type aware lint rules:
+## In-Progress
+- Add designed Neurodeck Powers to the OS component.
+- Design 3 custom Powers for each of the following: Berserk, Speedware, Soteria.
+- Add next / previous page buttons for each page within Cyberware and Augmentation Pages.
+- Remove Loresheets component from Resources Tab.
+- Create "Contributors" button on bottom of sidebar component which redirects to Contributors page.
+- Links to Ko-Fi and Discord in SupportTheProject.tsx should link to the proper channels.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-Running list of bugs / to-do:
-- Dropdowns on tabs should remain open once clicked, not just clicked on-hover
-
+## Backlog
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

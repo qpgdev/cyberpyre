@@ -24,7 +24,7 @@ function WhatAreAugmentations() {
       <div className="scrollable-div">
         <div style={{ margin: "100px" }}>
           <p className="setting-the-scene-title">what are augmentations?</p>
-          <p className="game-mechanics-text" style={{ textAlign: "justify" }}>
+          <p className="primary-text">
             In <em>cyberpyre,</em> installed cyberware is typically mechanically
             represented by <strong>Augmentations</strong>. There are many forms
             of Augmentations, including:
@@ -34,7 +34,7 @@ function WhatAreAugmentations() {
             arrOfStrings={firstListItems}
           ></BulletedUnorderedList>
 
-          <p style={{ textAlign: "justify" }}>
+          <p className="primary-text">
             Storytellers are encouraged to experiment with homebrew
             Augmentations which mimic existing or create new Disciplines,
             Merits, or Advantages. The Cyberware Density will vary depending on

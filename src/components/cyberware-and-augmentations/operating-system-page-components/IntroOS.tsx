@@ -14,7 +14,7 @@ const IntroOS = () => {
     <div className="operating-systems-page-intro">
       <p className="setting-the-scene-title"> operating systems </p>
 
-      <p style={{ textAlign: "justify" }}>
+      <p className="primary-text">
         Certain Augmentations can provide powers to a character, and often those
         Augmentations and powers can be upgraded or improved. The powers granted
         by these Augmentations are typically categorized under an Operating
@@ -27,17 +27,17 @@ const IntroOS = () => {
 
       <BulletedUnorderedList arrOfStrings={listContent}></BulletedUnorderedList>
 
-      <p style={{ textAlign: "justify" }}>
+      <p className="primary-text">
         Some Operating System powers allow both vampires and mortals to have
         access to a Discipline through cyberware (such as the Speedware
         Operating System giving characters access to the Celerity Discipline).
         If the standard variant of a cyberware Discipline power would typically
         require a Rouse check (see Vampire: the Masquerade 5th Edition Corebook,
-        p.___), using that power through cyberware instead causes Superficial
-        Willpower Damage (not halved) equal to the number of Rouse checks that
-        would have been required. Discipline powers gained through Augmentations
-        are not cumulative with standard Discipline levels and powers already
-        gained.
+        p.___), using that power through an Operating System instead causes
+        Superficial Willpower Damage (not halved) equal to the number of Rouse
+        checks that would have been required. Discipline powers gained through
+        an Operating System are not cumulative with standard Discipline levels and
+        powers already gained.
       </p>
 
       <ExampleBox str={exampleContent}></ExampleBox>
