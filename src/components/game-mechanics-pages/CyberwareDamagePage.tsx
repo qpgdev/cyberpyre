@@ -36,7 +36,7 @@ function CyberwareDamagePage() {
         <p className="setting-the-scene-title">
           damaging, targeting, or destroying cyberware
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Once a character becomes impaired (their Health tracker is completely
           filled with damage), further damage to the character also damages
           their cyberware in an equal amount to the damage dealt. While the
@@ -46,18 +46,18 @@ function CyberwareDamagePage() {
           provided by the Cyberware Density of that cyberware. Damage to
           cyberware does not reduce Cyberware Density.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           The effects of the Cyberware Damage varies depending on the cyberware:{" "}
           <br></br>
         </p>
 
         <BulletedUnorderedList arrOfStrings={listItems}></BulletedUnorderedList>
 
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           A piece of cyberware cannot receive more damage than its Cyberware
           Density level without being fully destroyed.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Unless the assailant made a called shot (see Vampire: the Masquerade
           5th Ed Corebook, p.___), the type of cyberware that is damaged is
           determined by the damaged character. Damaged cyberware does not
@@ -67,7 +67,7 @@ function CyberwareDamagePage() {
         </p>
 
         <ExampleBox str={exampleContent1}></ExampleBox>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           A Called Shot on a specific piece of cyberware by an assailant during
           combat is made with a negative modifier to the attacker's dice pool
           equal to 2 plus the Cyberware Density of the targeted cyberware. Each
@@ -77,14 +77,14 @@ function CyberwareDamagePage() {
           attack test by the assailant against a difficulty of the Cyberware
           Density of the cyberware in order to directly damage it.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Some weapons and powers are specifically designed to damage or disrupt
           the function of cyberware. These weapons and powers typically deal
           temporary Cyberware Damage to cyberware to disable it, which lasts
           until the end of the scene; if the attack roll is a critical success,
           however, the Cyberware Damage is permanent as normal.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Damaged cyberware can be repaired by a character with the right
           know-how, facilities, and equipment. Characters attempting to repair
           cyberware should follow the rules for Installing, Removing, or

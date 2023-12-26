@@ -33,7 +33,7 @@ const NeuralProcessorsPage = () => {
       >
         <p className="setting-the-scene-title"> neural processors </p>
 
-        <p style={{ textAlign: "justify" }}>
+        <p className="primary-text">
           Neural Processors are a specialized type of Augmentation which is
           installed at the base of the neck. Neural Processors have a Cyberware
           Density based on the number of available chip slots they provide, from
@@ -45,7 +45,7 @@ const NeuralProcessorsPage = () => {
         </p>
 
         <ArrayToTable headers={npHeaders} data={data}></ArrayToTable>
-        <p style={{ textAlign: "justify" }}>
+        <p className="primary-text">
           Storytellers and players are again encouraged to be creative when it
           comes to Skill chips. A Skill chip which provides a +1 to Brawl may be
           represented as a series of Tae Kwon Do kicks uploaded directly to the
@@ -53,7 +53,7 @@ const NeuralProcessorsPage = () => {
           Performance could funnel the decades of experience of a master pianist
           directly to the fingertips of a novice.
         </p>
-        <p style={{ textAlign: "justify" }}>
+        <p className="primary-text">
           Don't underestimate the power of Skill Chips. They allow characters to
           break the typical mold of their build - characters who were built to
           do nothing but fight are suddenly equally (or more) adept at hacking

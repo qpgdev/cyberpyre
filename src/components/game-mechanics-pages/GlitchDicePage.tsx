@@ -23,7 +23,7 @@ function GlitchDicePage() {
         <p className="setting-the-scene-title">
           glitch dice, glitchy criticals, and terminal failures
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Each time a character with cyberware compiles a dice pool (see
           Vampire: the Masquerade 5th Ed Corebook, p.___) which utilizes any of
           that cyberware, the dice pool must be augmented with{" "}
@@ -34,7 +34,7 @@ function GlitchDicePage() {
           installed cyberware will swap a number of normal dice with Glitch Dice
           equal to half their character’s Cyberware Density, rounded up.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           If a character rolls a critical success (see Vampire: the Masquerade
           5th Ed Corebook, p.___) and one of the 10s lands on a Glitch die, that
           is considered a <strong>Glitchy Critical</strong>. The character still
@@ -47,7 +47,7 @@ function GlitchDicePage() {
           but ultimately the message to your players is:
           <em> You achieve your goal, but at what cost?</em>
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           If a character fails a dice roll which resulted in at least one 1 on a
           Glitch die, that is considered a <strong>Terminal Failure. </strong>
           The character fails their action catastrophically, in an incredibly
@@ -57,7 +57,7 @@ function GlitchDicePage() {
           acutely aware of (or beholden to) the cybernetics in their body.
         </p>
 
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           For vampires, any Glitch Dice in their dice pool are assumed to be
           both Hunger Dice and Glitch Dice simultaneously. First swap Glitch
           dice for normal dice, subtract the number of Glitch dice added from

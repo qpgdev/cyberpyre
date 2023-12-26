@@ -28,10 +28,10 @@ function KindredInTheFuture() {
           >
             A lot has changed over the last century.
           </p>
-          <p className="game-mechanics-text" style={FAQBoxTitleStylings}>
+          <p className="primary-text" style={FAQBoxTitleStylings}>
             <strong>Do mortals know that vampires are real? </strong>
           </p>
-          <p className="game-mechanics-text" style={FAQBoxStylings}>
+          <p className="primary-text" style={FAQBoxStylings}>
             No. The Masquerade
             <em>
               {" "}
@@ -50,13 +50,13 @@ function KindredInTheFuture() {
             a priest in Salem during the 17th century as if it was a mirror to
             another world. To you today, it just looks like Instagram.
           </p>
-          <p className="game-mechanics-text" style={FAQBoxTitleStylings}>
+          <p className="primary-text" style={FAQBoxTitleStylings}>
             <strong>
               I thought Kindred reverted to their appearance at time of death
               after the Embrace. How can they have cyberware?
             </strong>{" "}
           </p>
-          <p className="game-mechanics-text" style={FAQBoxStylings}>
+          <p className="primary-text" style={FAQBoxStylings}>
             Mortal technology isn't the only area that has seen advancements -
             Tzimisce ripperdocs are becoming more and more common in Kindred
             circles, with each day seeing more and more ingenious designs.
@@ -69,25 +69,26 @@ function KindredInTheFuture() {
             undying body, as opposed to their cursed bodies rejecting the change
             as they normally do.
           </p>
-          <p className="game-mechanics-text" style={FAQBoxTitleStylings}>
+          <p className="primary-text" style={FAQBoxTitleStylings}>
             <strong>
               What happens to a mortal with cyberware when they are embraced?
             </strong>{" "}
           </p>
-          <p className="game-mechanics-text" style={FAQBoxStylings}>
+          <p className="primary-text" style={FAQBoxStylings}>
             The mechanics for the Embrace, or the siring of a new vampire, are
             relatively vague in <em> Vampire: The Masquerade 5th Edition. </em>
             All that is known for sure is that a vampire must feed a recently
             exsanguinated corpse some of their undying blood (also referred to
             as <em>vitae</em>), and that the corpse may rise at that character's
             Generation + 1. The interaction that the healing properties of vitae
-            can have with cyberware is worth considering - given enough vitae, a
-            mortal's body could regrow any "missing" biological components,
-            causing their body to expel their mortal cybernetics. Even if this
-            fails to happen, mortal cyberware will not function in the body of a
-            vampire unless the vampire uses Blush of Life, requiring the
-            character to seek out a ripperdoc with some knowledge of Blood
-            Sorcery. Refer to{" "}
+            can have with cyberware is worth considering - given enough vitae,
+            could a mortal's body regrow any "missing" biological components,
+            causing their body to expel their mortal cybernetics? Even if this
+            fails to happen, will mortal cyberware function in the body of a
+            vampire? Does the vampire need to use Blush of Life, or are they
+            required to seek out a ripperdoc with some knowledge of Blood
+            Sorcery to convert their tech? Decide the answer to these questions
+            for your own story, and refer to{" "}
             <em>Vampire: The Masquerade 5th Edition Corebook, p. 240</em> for
             additional information on how to run an Embrace.
           </p>

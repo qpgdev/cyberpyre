@@ -18,14 +18,14 @@ function CompulsionsPage() {
         style={{ marginTop: "50px", marginLeft: "200px", marginRight: "200px" }}
       >
         <p className="setting-the-scene-title">cybernetic compulsions</p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Certain in-game events (such as a player getting a{" "}
           <strong>Glitchy Critical</strong>) can result in a character
           experiencing a <strong>Cybernetic Compulsion, </strong>
           causing a character to become acutely aware of (or beholden to) the
           cybernetics in their body.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Provided below are some example compulsions certified to make players
           sweat. Feel free to take creative liberties here - if there is a
           better narrative compulsion for that character to have in the moment,
@@ -220,22 +220,18 @@ function CompulsionsPage() {
         </div>
       </div>
       <div className="navigation-buttons-div">
-      <button
-            className="intro-button-alt"
-            onClick={navigateToGlitchDice}
-          >
-            Back
-          </button>
-          <button
-            className="intro-button-alt"
-            onClick={navigateToInstallingRemoving}
-          >
-            Next
-          </button>
+        <button className="intro-button-alt" onClick={navigateToGlitchDice}>
+          Back
+        </button>
+        <button
+          className="intro-button-alt"
+          onClick={navigateToInstallingRemoving}
+        >
+          Next
+        </button>
       </div>
     </div>
   );
 }
 
-// export component
 export default CompulsionsPage;

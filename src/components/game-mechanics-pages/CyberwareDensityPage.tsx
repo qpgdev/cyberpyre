@@ -24,7 +24,7 @@ function CyberwareDensityPage() {
         style={{ marginTop: "50px", marginLeft: "200px", marginRight: "200px" }}
       >
         <p className="setting-the-scene-title">what is cyberware density?</p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           In <em> cyberpyre</em>, the impact that installed cyberware has on a
           character’s autonomy and sense of self is measured via{" "}
           <strong> Cyberware Density. </strong>
@@ -42,27 +42,27 @@ function CyberwareDensityPage() {
 
         <ExampleBox str={exampleContent}></ExampleBox>
 
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Characters lose one level of maximum Humanity per level of Cyberware
           Density possessed by the cyberware they have installed. If a character
           with cyberware installed reaches zero Humanity, they fall completely
           into the throes of cyberpsychosis and are lost to Storyteller control
           forever.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           Vampires lose one level of their Generation's maximum Blood Potency
           (see Vampire: the Masquerade: 5th Ed Corebook, p.___) equal to half
           their total Cyberware Density level, rounded up. This cannot reduce
           them below the minimum Blood Potency for their Generation.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           A character’s Cyberware Density level can be temporarily reduced with
           specialized medication, medical supervision, and / or medical care.
           Medications typically come in the form of immunoblockers - pills or
           injections which help prevent undesireable side effects from excessive
           cyberware use.
         </p>
-        <p className="game-mechanics-text">
+        <p className="primary-text">
           The only way to permanently reduce a character’s Cyberware Density is
           to have their cyberware removed, though this removal may have
           additional mechanical and narrative drawbacks for the character. This
