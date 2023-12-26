@@ -28,10 +28,10 @@ function KindredInTheFuture() {
           >
             A lot has changed over the last century.
           </p>
-          <p className="game-mechanics-text" style={FAQBoxTitleStylings}>
+          <p className="primary-text" style={FAQBoxTitleStylings}>
             <strong>Do mortals know that vampires are real? </strong>
           </p>
-          <p className="game-mechanics-text" style={FAQBoxStylings}>
+          <p className="primary-text" style={FAQBoxStylings}>
             No. The Masquerade
             <em>
               {" "}
@@ -50,13 +50,13 @@ function KindredInTheFuture() {
             a priest in Salem during the 17th century as if it was a mirror to
             another world. To you today, it just looks like Instagram.
           </p>
-          <p className="game-mechanics-text" style={FAQBoxTitleStylings}>
+          <p className="primary-text" style={FAQBoxTitleStylings}>
             <strong>
               I thought Kindred reverted to their appearance at time of death
               after the Embrace. How can they have cyberware?
             </strong>{" "}
           </p>
-          <p className="game-mechanics-text" style={FAQBoxStylings}>
+          <p className="primary-text" style={FAQBoxStylings}>
             Mortal technology isn't the only area that has seen advancements -
             Tzimisce ripperdocs are becoming more and more common in Kindred
             circles, with each day seeing more and more ingenious designs.

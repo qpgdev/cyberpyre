@@ -88,8 +88,7 @@ a:hover {
   text-align: justify;
 }
 
-.game-mechanics-text {
-  color: #fff;
+.primary-text {
   text-align: justify;
 }
 
@@ -154,7 +153,7 @@ a:hover {
 
 .setting-the-scene-title {
   font-size: 36px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Orbitron";
 }
 
 @font-face {
