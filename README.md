@@ -24,6 +24,7 @@ Email submissions to qpgdevelopment@gmail.com and make sure to include your name
 - Design 3 custom Powers for each of the following: Berserk, Speedware, Soteria.
 - Add next / previous page buttons for each page within Cyberware and Augmentation Pages.
 - Remove Loresheets component from Resources Tab.
+- Revisit TS usage.
 - Create "Contributors" button on bottom of sidebar component which redirects to Contributors page.
 - Links to Ko-Fi and Discord in SupportTheProject.tsx should link to the proper channels.
 
